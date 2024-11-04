@@ -1,0 +1,203 @@
+                         Charles Wyble - Résumé
+
+
+Contact Information:
+
+Charles Wyble
+El Monte, CA
+
+Mobile Phone: 818.280.7059
+Email: charles@knownelement.com
+URL: http://www.knownelement.com/
+
+
+Professional Objective:
+
+    I’m looking to reduce costs and improve efficiency in an IT service
+    delivery organization, by rapidly sourcing and fielding whatever is
+    necessary to get the job done on time and within budget.
+    
+
+Skills Summary:
+
+    Linux systems engineer with extensive knowledge/experience on both
+    Debian and RedHat based Linux distributions in a wide variety of
+    applications. Very comfortable with shell scripting, package
+    management, user account administration, configuration management,
+    etc. A frequent speaker/writer on a wide variety of IT and open
+    source matters, as well as a frequent contributer to open source
+    projects.
+  
+
+:
+
+    *Core IT infrastructure *: Daily administration tasks in support of
+    Mailman, Postfix, Bind, PXE boot (Debian Fully Automated Install
+    (FAI) and Red Hat Kickstart on both Xen guests and physical
+    hardware.
+  
+    *Linux Server Applications *: Debian and Ubuntu / Red Hat Enterprise
+    Linux (3/4/5) shell scripting/automation (bash/sed/awk) assisting
+    tier3 support with software debugging (PHP/Python/Perl/Java) Apache
+    1.30/2.0/2.2 Postfix and Courier Samba/ProfFTPD
+    IpTables/Snort/Nessus/Nmap/OpenVAS.
+  
+    *Networking (switches, load balancers and security)*: F5/BigIP
+    Global Traffic Manager and Local Traffic Manager Cisco
+    LocalDirector, 2600/1800 series routers, 3745/2900 switches Linux
+    Virtual Server (LVS) IPTables, Snort, ClamAV OpenVPN.
+  
+    * Monitoring*: Nagios, HP OpenView, HP SiteScope and What’s Up Gold.
+  
+    *Storage*: Hewlett Packard SAN (20 terabytes total storage
+    supporting VmWare workloads) EMC Clarion cx400 and cx700 (200
+    terabytes total storage supporting Oracle/MySQL/SQL server
+    workloads) Promise and Equallogic iSCSI Network Attached Storage
+    (100 terabytes total storage supporting near line storage and
+    development workloads) NFS on Linux supporting distributed web work
+    loads.
+  
+    *Other*: Basic systems administration of HP-UX 11i Basic systems
+    administration of Solaris 8/9/10/opensolaris Panther CDN ATT Edge
+    Cache Akamai VmWare Virtual Infrastructure 3.5 XEN KVM/Qemu/Virtual
+    Server/OpenVZ/VmWare Server.
+  
+
+Employment History:
+
+    Linux System Engineer
+    Targetcast Networks (via acquisition of RippleTV)
+    October 2008-January 2010
+    
+    Provided system engineering expertise for customer facing
+    advertising platform (AdSpot) and internal fleet management tool
+    (CPanel). Utilized Nginx, Mongrel, Thin, Rails, Merb, Rack, MySQL
+    (with replication), memcached and slack to support 2000+ systems.
+    
+    
+    Linux, Windows, network and security consulting
+    Multiple entities including Cast And Crew Entertainment Services Inc, Evite.com and Siderean Software
+    September 2007-October 2008
+    
+    Provided Linux and Cisco systems engineering expertise for
+    Evite.com, across 2 geographically dispersed data centers supporting
+    10 million visitors and 2 million e-mails per day. Utilized
+    Apache/Tomcat on Gentoo and Ubuntu.
+    
+    Provided Linux systems engineering expertise for Cast And Crew
+    Entertainment Services. Utilized Centos to host several green screen
+    and J2EE web based applications for payroll processing.
+    
+    Provided Linux systems engineering expertise for Siderean Software.
+    Utilized Fedora and Centos on dedicated hardware and ec2 to host
+    numerous web properties including sites for Oracle Software.
+    
+    
+    Linux/Windows System Engineer
+    The Walt Disney Company - Parks and Resorts Online - Walt Disney Internet Group
+    August 2006-September 2007
+    
+    Provided system engineering and PCI compliance expertise for
+    Disneyland.com, Disneyworld.com, DisneyCruiseLines.com and 23
+    related properties generating 2 billion dollars a year. Business
+    logic was handled by Jboss instances on RHEL3/4 and frontend
+    application serving was done via Windows 2003 and Tomcat/IIS.
+    
+    Projects:
+    * *Automated numerous routine system administration tasks* Created
+      numerous batch and VbScript programs to handle all aspects of
+      Windows administration from the command line.
+    * *Active Directory Project for WDIG* Designed and implemented a
+      nation wide, 3 data center, highly available Active Directory
+      system to handle both the PCI and non PCI servers for the Walt
+      Disney Internet Group.
+    * *Windows NT to Active Directory migration* Migrated all the
+      application servers off of Windows NT to Windows 2003 Active
+      Directory domain controllers. Also have experience with Windows
+      2008 (including Linux/Cisco/wireless [wpa2 enterprise]
+      authentication). Used both Centrify and
+      Samba/Winbind/LDAP/Kerberos.
+    
+    
+    Linux Systems Engineer
+    Intuit Inc (via acquistion of Electronic Clearing House)
+    October 2005-June 2006
+    
+    Linux systems engineer for a 24x7 transaction processing/ecommerce/
+    financial services environment. Responsibilities included working
+    closely with the network administration and infrastructure design
+    teams and ensuring continuous uptime of multiple high
+    visibility/high impact/high value envrironments including 1TB MySQL
+    database, 300 TB Oracle database, 1.5 TB Oracle Data warehouse and a
+    4,000-store LAMP based ecommerce system (MerchantAmerica.com).
+    
+    Projects:
+    * *Deployment of encrypted backups.*
+      Designed/tested/documented/deployed an enterprise wide Linux
+      backup system. All data stored on a central server with ISCSI
+      attached network storage. Uses GNUPG and tar over ssh.
+      Backups/Restores tested on a weekly basis.
+    * *Deployment of Oracle database infrastructure.* Deployed 2 Oracle
+      RAC clusters, each consisting of 3 Dell 6850's. They are equipped
+      with Qual Dual Core Xeon's and 32 Gb of RAM, running RedHat
+      Enterprise Linux 4.0 64bit edition. One environment is for staging
+      and one is for production. EMC attached. This environment is used
+      for Data Warehouse, Transaction Processing Software and Credit
+      Card Clearing applications. The hardware and software was deployed
+      in 3 business days.
+    * *File Integrity Checking system for PCI compliance.* Deployment of
+      file integrity checking across 100 UNIX servers using fully open
+      source software. Used integrit http://integrit.sf.net and some
+      custom shell scripts which were submitted back upstream for
+      inclusion.
+    
+    
+    Linux, Windows, network and security consulting for various startups and defense contractors
+    Multiple entities
+    February 2005-October 2005
+    
+    Projects:
+    * *LAMP Deployment * Deployed a Debian Linux/Apache/MySQL/PHP system
+      and educated the System Administration and Development staff on
+      configuration and use for an insurance company.
+    * *Corporate Linux Deployment/Migration* Provided assistance to a
+      medium sized engineering firm with a near 100% conversion to Linux
+      on the desktop and server. Utilizing SUSE Professional 6.5 for
+      desktops and Debian GNU/Linux for servers (Email/File
+      Server/DNS/DHCP).
+    * *Linux Deployment/Migration* Provided assistance to a small
+      software development firm with a near 100% conversion to Linux.
+      Utilized Ubuntu Linux for desktops and Debian GNU/Linux for
+      servers (Email/File/LDAP/DNS/DHCP).
+    
+    
+    Linux/Windows Systems Engineer
+    GSI Commerce (via acquisition of Newroads Inc)
+    July 2002-February 2005
+    
+    Projects:
+    * *Disaster Recovery from an Informix Database failure.* Assisted in
+      the design/testing/and execution of a disaster recovery in real
+      time (on-the-fly). Wrote and documented the use of several
+      utilities that cut down the amount of time to recovery by 30
+      percent.
+    * *Streamlined the FTP Server Configuration process.* Streamlined
+      the system configuration and new account creation process for
+      ProFTPD on a mission critical FTP server. This allowed faster turn
+      around times and freed up IT resources.
+    * *Deployed open-source Remote Control Software.*
+      Deplopyed/Secured/Optimized/Maintained UltraVNC remote control
+      software. This allowed the Infrastructure Support team to more
+      rapidly respond to users support requests, and by doing so
+      increase compliance with Service Level Agreements and increase
+      end-user satisfaction.
+    * *Network Infrastructure Upgrade.* Upgraded the network from hubs
+      to Linksys managed switches to increase network performance and
+      usability/reliability. No network downtime occurred in the process
+      of the upgrade.
+    * *Hardware/Software Inventory Solution*: Wrote a custom
+      software/hardware monitoring/reporting system to ensure compliance
+      with software licensing and obtain an accurate overview of company
+      assets for inventory and disaster recovery purposes. Utilized
+      WMI/Visio/Microsoft Access.
+    

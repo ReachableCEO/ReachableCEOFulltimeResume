@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:r="http://xmlresume.sourceforge.net/resume/0.0">
+<fo:layout-master-set>
+<fo:simple-page-master page-width="8.5in" page-height="11in" margin-bottom="0in" margin-right="0.6in" margin-left="0.6in" margin-top="0.75in" master-name="resume-page">
+<fo:region-body margin-bottom="0.6in" overflow="hidden"/>
+<fo:region-after extent="0.6in" overflow="hidden"/>
+</fo:simple-page-master>
+</fo:layout-master-set>
+<fo:page-sequence master-reference="resume-page">
+<fo:static-content flow-name="xsl-region-after">
+<fo:block font-family="serif" font-size="8pt" text-align="start">Charles Wyble - Résumé - page <fo:page-number/>
+</fo:block>
+</fo:static-content>
+<fo:flow flow-name="xsl-region-body">
+<fo:block font-size="10pt" font-family="serif" start-indent=".5in">
+<fo:block space-after="0.750em">
+<fo:block font-size="10pt" font-weight="bold" font-style="normal">Charles Wyble</fo:block>
+<fo:block>
+<fo:block>El Monte, CA</fo:block>
+</fo:block>
+<fo:block space-before="0.4em">
+<fo:block>
+<fo:inline font-style="italic">Mobile Phone:</fo:inline> 818.280.7059</fo:block>
+<fo:block>
+<fo:inline font-style="italic">Email:</fo:inline> charles@knownelement.com</fo:block>
+<fo:block>
+<fo:inline font-style="italic">URL:</fo:inline> http://www.knownelement.com/</fo:block>
+</fo:block>
+</fo:block>
+<fo:block keep-with-next="always" border-bottom-width="thin" border-bottom-style="none" space-after="0.750em" space-before="0.750em" font-weight="bold" font-family="sans-serif" font-size="10pt" start-indent="0in">Professional Objective</fo:block>
+<fo:block space-after="0.750em">
+		I’m looking to reduce costs and improve efficiency in an IT service delivery organization, 
+		by rapidly sourcing and fielding whatever is necessary to get the job done on time and within budget. 
+		</fo:block>
+<fo:block keep-with-next="always" border-bottom-width="thin" border-bottom-style="none" space-after="0.750em" space-before="0.750em" font-weight="bold" font-family="sans-serif" font-size="10pt" start-indent="0in">Skills Summary</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>Linux systems engineer with extensive knowledge/experience on both Debian and RedHat based Linux distributions in a wide variety of applications. Very comfortable with shell scripting, package management, user account administration, configuration management, etc. A frequent speaker/writer on a wide variety of IT and open source matters, as well as a frequent contributer to open source projects.</fo:block>
+<fo:block keep-with-next="always" border-bottom-width="thin" border-bottom-style="none" space-after="0.750em" space-before="0.750em" font-weight="bold" font-family="sans-serif" font-size="10pt" start-indent="0in"/>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Core IT infrastructure</fo:inline>: Daily administration tasks in support of Mailman, Postfix, Bind, PXE boot (Debian Fully Automated Install (FAI) and Red Hat Kickstart on both Xen guests and physical hardware.</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Linux Server Applications</fo:inline>: Debian and Ubuntu / Red Hat Enterprise Linux (3/4/5) shell scripting/automation (bash/sed/awk) assisting tier3 support with software debugging (PHP/Python/Perl/Java) Apache 1.30/2.0/2.2 Postfix and Courier Samba/ProfFTPD IpTables/Snort/Nessus/Nmap/OpenVAS.</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Networking (switches, load balancers and security)</fo:inline>: F5/BigIP Global Traffic Manager and Local Traffic Manager Cisco LocalDirector, 2600/1800 series routers, 3745/2900 switches Linux Virtual Server (LVS) IPTables, Snort, ClamAV OpenVPN.</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Monitoring</fo:inline>: Nagios, HP OpenView, HP SiteScope and What’s Up Gold.</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Storage</fo:inline>: Hewlett Packard SAN (20 terabytes total storage supporting VmWare workloads) EMC Clarion cx400 and cx700 (200 terabytes total storage supporting Oracle/MySQL/SQL server workloads) Promise and Equallogic iSCSI Network Attached Storage (100 terabytes total storage supporting near line storage and development workloads) NFS on Linux supporting distributed web work loads.</fo:block>
+<fo:block space-after="0.4em">
+<fo:inline font-weight="normal" font-style="italic"/>
+<fo:inline font-weight="bold">Other</fo:inline>: Basic systems administration of HP-UX 11i Basic systems administration of Solaris 8/9/10/opensolaris Panther CDN ATT Edge Cache Akamai VmWare Virtual Infrastructure 3.5 XEN KVM/Qemu/Virtual Server/OpenVZ/VmWare Server.</fo:block>
+<fo:block keep-with-next="always" border-bottom-width="thin" border-bottom-style="none" space-after="0.750em" space-before="0.750em" font-weight="bold" font-family="sans-serif" font-size="10pt" start-indent="0in">Employment History</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux System Engineer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">Targetcast Networks (via acquisition of RippleTV)</fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">October 2008–January 2010</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+<fo:block space-after="0.750em">
+	Provided system engineering expertise for customer facing advertising platform (AdSpot) and internal fleet management tool (CPanel). 
+	Utilized Nginx, Mongrel, Thin, Rails, Merb, Rack, MySQL (with replication), memcached and slack to support 2000+ systems.
+	</fo:block>
+</fo:block>
+</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux, Windows, network and security consulting</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">Multiple entities including Cast And Crew Entertainment Services Inc, Evite.com and Siderean Software </fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">September 2007–October 2008</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+<fo:block space-after="0.750em">
+	Provided Linux and Cisco systems engineering expertise for Evite.com, across 2 geographically dispersed data centers supporting 
+	10 million visitors and 2 million e-mails per day. Utilized Apache/Tomcat on Gentoo and Ubuntu.
+	</fo:block>
+<fo:block space-after="0.750em">
+	Provided Linux systems engineering expertise for Cast And Crew Entertainment Services. Utilized Centos to host several green screen 
+	and J2EE web based applications for payroll processing.
+	</fo:block>
+<fo:block space-after="0.750em">
+	Provided Linux systems engineering expertise for Siderean Software. Utilized Fedora and Centos on dedicated hardware and ec2 to 
+	host numerous web properties including sites for Oracle Software.
+	</fo:block>
+</fo:block>
+</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux/Windows System Engineer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">The Walt Disney Company - Parks and Resorts Online - Walt Disney Internet Group</fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">August 2006–September 2007</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+<fo:block space-after="0.750em">
+	Provided system engineering and PCI compliance expertise for Disneyland.com, Disneyworld.com, DisneyCruiseLines.com 
+	and 23 related properties generating 2 billion dollars a year.  Business logic was handled by Jboss instances on RHEL3/4
+	and frontend application serving was done via Windows 2003 and Tomcat/IIS.
+	</fo:block>
+<fo:list-block provisional-label-separation="1.0em" provisional-distance-between-starts="0.750em" space-after="0.750em">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Automated numerous routine system administration tasks</fo:inline>
+	Created numerous batch and VbScript programs to handle all aspects of Windows administration from the command line.
+	</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Active Directory Project for WDIG</fo:inline>
+	Designed and implemented a nation wide, 3 data center, highly available Active Directory system to handle both the 
+	PCI and non PCI servers for the Walt Disney Internet Group.  
+	</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Windows NT to Active Directory migration</fo:inline>
+	Migrated all the application servers off of Windows NT to Windows 2003 Active Directory domain controllers. 
+	Also have experience with Windows 2008 (including Linux/Cisco/wireless 
+	[wpa2 enterprise] authentication). Used both Centrify and Samba/Winbind/LDAP/Kerberos.
+	</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux Systems Engineer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">Intuit Inc (via acquistion of Electronic Clearing House)</fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">October 2005–June 2006</fo:block>
+</fo:block>
+<fo:block provisional-distance-between-starts="0.5em">
+<fo:block space-after="0.750em">
+			Linux systems engineer for a 24x7 transaction processing/ecommerce/
+			financial services environment.  Responsibilities included working closely 
+			with the network administration and infrastructure design teams and ensuring continuous 
+			uptime of multiple high visibility/high impact/high value envrironments including
+
+			1TB MySQL database, 300 TB Oracle database, 1.5 TB  Oracle Data warehouse and a 
+			4,000-store LAMP based ecommerce system (MerchantAmerica.com).
+		</fo:block>
+</fo:block>
+<fo:block>
+<fo:block font-weight="normal" font-style="italic" keep-with-next="always">Projects:</fo:block>
+<fo:list-block provisional-label-separation="1.0em" provisional-distance-between-starts="0.750em" space-after="0.750em">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Deployment of encrypted backups.</fo:inline>
+						Designed/tested/documented/deployed an enterprise wide Linux backup system.
+						All data stored on a central server with ISCSI attached network storage. 
+						Uses GNUPG and tar over ssh. Backups/Restores tested on a weekly basis.
+				</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Deployment of Oracle database infrastructure.</fo:inline>
+					Deployed 2 Oracle RAC clusters, each consisting of 3 Dell 6850's. They are equipped with Qual Dual Core
+					Xeon's and 32 Gb of RAM, running RedHat Enterprise Linux 4.0 64bit edition.
+					One environment is for staging and one is for production. EMC attached. This environment is used for 
+					Data Warehouse, Transaction Processing Software and Credit Card Clearing applications. 
+					The hardware and software was deployed in 3 business days.
+				</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">File Integrity Checking system for PCI compliance.</fo:inline>
+						Deployment of file integrity checking across 100 UNIX servers using fully open source software.
+						Used integrit <fo:inline font-family="monospace">http://integrit.sf.net</fo:inline> and some custom shell scripts which were submitted
+						back upstream for inclusion.
+				</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux, Windows, network and security consulting for various startups and defense contractors</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">Multiple entities</fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">February 2005–October 2005</fo:block>
+</fo:block>
+<fo:block>
+<fo:block font-weight="normal" font-style="italic" keep-with-next="always">Projects:</fo:block>
+<fo:list-block provisional-label-separation="1.0em" provisional-distance-between-starts="0.750em" space-after="0.750em">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">LAMP Deployment </fo:inline>
+					Deployed a Debian Linux/Apache/MySQL/PHP system and educated the System Administration and Development
+      				staff on configuration and use for an insurance company. 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Corporate Linux Deployment/Migration</fo:inline> 
+					Provided assistance to a medium sized engineering firm with a near 100% 
+					conversion to Linux on the desktop and server. Utilizing SUSE Professional 6.5 for desktops and Debian GNU/Linux for 
+					servers (Email/File Server/DNS/DHCP). 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Linux Deployment/Migration</fo:inline>
+					Provided assistance to a small software development firm with a near 100% 
+					conversion to Linux. Utilized Ubuntu Linux for desktops and Debian GNU/Linux for servers 
+					(Email/File/LDAP/DNS/DHCP). 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+<fo:block>
+<fo:block keep-with-next="always" space-after="0.4em">
+<fo:block font-weight="bold" font-style="normal" keep-with-next="always">Linux/Windows Systems Engineer</fo:block>
+<fo:block keep-with-next="always">
+<fo:inline font-weight="normal" font-style="italic">GSI Commerce (via acquisition of Newroads Inc)</fo:inline>
+</fo:block>
+<fo:block font-weight="normal" font-style="italic">July 2002–February 2005</fo:block>
+</fo:block>
+<fo:block>
+<fo:block font-weight="normal" font-style="italic" keep-with-next="always">Projects:</fo:block>
+<fo:list-block provisional-label-separation="1.0em" provisional-distance-between-starts="0.750em" space-after="0.750em">
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Disaster Recovery from an Informix Database failure.</fo:inline>
+      			Assisted in the design/testing/and execution of a disaster recovery in real time
+      			(on-the-fly). Wrote and documented the use of several utilities that cut down the amount of time to recovery by 30
+      			percent.
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Streamlined the FTP Server Configuration process.</fo:inline>
+				Streamlined the system configuration and new account creation process for ProFTPD on a mission critical FTP server. 
+				This allowed faster turn around times and freed up IT resources. 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Deployed open-source Remote Control Software.</fo:inline>
+      			Deplopyed/Secured/Optimized/Maintained UltraVNC remote control software. This allowed the Infrastructure Support team to more
+      			rapidly respond to users support requests, and by doing so increase compliance with Service Level Agreements and increase
+      			end-user satisfaction. 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Network Infrastructure Upgrade.</fo:inline>
+				Upgraded the network from hubs to Linksys managed switches to increase network performance and usability/reliability. 
+				No network downtime occurred in the process of the upgrade. 
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+<fo:list-item>
+<fo:list-item-label end-indent="label-end()" start-indent=".5in">
+<fo:block>•</fo:block>
+</fo:list-item-label>
+<fo:list-item-body start-indent="body-start()">
+<fo:block>
+<fo:inline font-weight="bold">Hardware/Software Inventory Solution</fo:inline>:
+				Wrote a custom software/hardware monitoring/reporting system to ensure compliance with software licensing and obtain an 
+				accurate overview of company assets for inventory and disaster recovery purposes. Utilized WMI/Visio/Microsoft Access.
+			</fo:block>
+</fo:list-item-body>
+</fo:list-item>
+</fo:list-block>
+</fo:block>
+</fo:block>
+</fo:block>
+</fo:flow>
+</fo:page-sequence>
+</fo:root>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+
+<resume>
+	<header>
+		<name><firstname>Charles</firstname> <surname>Wyble</surname></name>
+		<address><city>El Monte</city> <state>CA</state> </address>
+		<contact><phone location="mobile">818.280.7059</phone> <email>charles@knownelement.com</email> <url>http://www.knownelement.com/</url> </contact>
+	</header>
+
+	<objective>
+		<para>
+		I’m looking to reduce costs and improve efficiency in an IT service delivery organization, 
+		by rapidly sourcing and fielding whatever is necessary to get the job done on time and within budget. 
+		</para>
+	</objective>
+
+	<skillarea>
+		<skillset>
+			<title>Skills Summary</title>
+			<skill> 
+			Linux systems engineer with extensive knowledge/experience on both Debian and RedHat based Linux distrubutions in a wide variety of applications.
+			Very comfortable with shell scripting, package management, user account administration, configuration management etc)
+			</skill>
+	 		<skill> A superb communicator who will thoroughly and efficiently handle any situation requiring communication with clarity and conciseness. </skill>
+			<skill> A frequent speaker/writer on a wide variety of I.T and open source matters, as well as a frequent contributer to open source projects. </skill>
+		</skillset>
+		<skillset>
+			<skill>
+			Core IT infrastructure Daily administration tasks in support of Mailman, Postfix, Bind, PXE boot (Debian Fully Automated Install (FAI) and 
+			Red Hat Kickstart on both Xen guests and physical hardware.
+			</skill>
+			<title>Linux Server Applications</title>
+			<skill>Debian and Ubuntu / Red Hat Enterprise Linux (3/4/5)</skill>
+			<skill>Shell scripting/automation (bash/sed/awk)</skill>
+			<skill>Assisting tier3 support with software debugging (php/python/perl/java/)</skill>
+			<skill>Apache 1.30/2.0/2.2</skill>
+			<skill>Postfix and Courier</skill>
+			<skill>Samba/ProfFTPD</skill>
+			<skill>IpTables/Snort/Nessus/Nmap/OpenVAS (formerly nessus)</skill>
+		</skillset>
+		<skillset><title>Networking (switches, load balancers and security) </title>
+			<skill>F5/BigIP Global Traffic Manager and Local Traffic Manager </skill>
+			<skill>Cisco  LocalDirector, 2600/1800 series routers, 3745/2900 switches</skill>
+			<skill>Linux Virtual Server (LVS)</skill>
+			<skill>IPTables, Snort, ClamAV</skill>
+			<skill>OpenVPN</skill>
+		</skillset>
+		<skillset><title>Monitoring</title>
+				<skill>Nagios, HP OpenView, HP SiteScope and What’s Up Gold</skill>
+		</skillset>
+  		<skillset><title>Storage</title>
+				<skill>Hewlett Packard SAN (20 terabytes total storage supporting VmWare workloads)</skill>
+				<skill>EMC Clarion cx400 and cx700  (200 terabytes total storage supporting oracle/mysql/sql server workloads)</skill>
+				<skill>Promise and Equallogic iSCSI Network Attached Storage (100 terabytes total storage supporting near line storage and development workloads)</skill>
+				<skill>NFS on Linux supporting distributed web work loads</skill>
+	  	</skillset>
+		<skillset><title>Other</title>
+			<skill>Basic systems administration of HP-UX 11i</skill>
+			<skill>Basic systems administration of Solaris 8/9/10/opensolaris</skill>
+			<skill>Panther CDN (used at Ripple/Targetcasat)</skill>
+			<skill>ATT Edge Cache (used at Disney)</skill>
+			<skill>Akamai (used at Evite and Disney)</skill>
+		</skillset>
+</skillarea>
+
+<history>
+
+<job>
+	<jobtitle>Linux System Engineer</jobtitle>
+	<employer>Targetcastnetworks INC (via acquisition of RippleTV)</employer>
+	<period>
+		<from><date><month>October</month><year>2008</year></date></from>
+		<to><date><month>January</month><year>2010</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided system engineering expertise for customer facing advertising platform (AdSpot) and internal fleet management tool (CPanel). 
+	Utilized Nginx, Mongrel, Thin, Rails, Merb and Rack. Also used MySQL and memcached.
+	</para>
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows/network/security consulting</jobtitle>
+	<employer>Multiple entities including Cast And Crew Entertainment Services Inc, Evite.com and Siderean Software </employer>
+	<period>
+	<from><date><month>September</month><year>2007</year></date></from>
+	<to><date><month>October</month><year>2008</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided system engineering expertise for Evite.com, across 2 geographically dispersed data centers supporting 
+	10 million visitors and 2 million e-mails per day. Utilized Apache/Tomcat on Gentoo and Ubuntu.
+	</para>
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows System Engineer</jobtitle>
+	<employer>The Walt Disney Company - Parks and Resorts Online - Walt Disney Internet Group</employer>
+	<period>
+		<from><date><month>August</month><year>2006</year></date></from>
+		<to><date><month>September</month><year>2007</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided system engineering and PCI compliance expertise for Disneyland.com,Disneyworld.com,DisneyCruiseLines.com 
+	and 23 related properties generating 2 billion dollars a year.  Business logic was handled by Jboss instances on RHEL3/4.
+	</para>
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux Systems Engineer</jobtitle>
+	<employer>Intuit Inc (via acquistion of Electronic Clearing House)</employer>
+	<period>
+		<from><date><month>October</month><year>2005</year></date></from>
+		<to><date><month>June</month><year>2006</year></date></to>
+	</period>
+
+	<description>
+		<para>
+			Linux systems engineer for a 24x7 transaction processing/ecommerce/
+			financial services environment.  Responsibilities included: Working closely 
+			with the network administration and infrastructure design teams.  Ensuring continuous 
+			uptime of multiple high visibility/high impact/high value envrironments including:
+		</para>
+
+		<skillset>
+			<skill> A 1TB MySQL database.  </skill>
+			<skill> A 300 TB Oracle database.  </skill>
+			<skill> A 1.5 TB  Oracle Data warehouse.  </skill>
+			<skill> A 4,000 store LAMP based ecommerce system. (MerchantAmerica.com) </skill>
+		</skillset>
+	</description>
+
+	<projects>
+		<project>
+					<title>Deployment of encrypted backups</title>
+					<para> 
+						Designed/tested/documented/deployed an enterprise wide Linux backup system.
+						All data stored on a central server with ISCSI attached network storage. 
+						Uses GNUPG and tar over ssh. Backups/Restores tested on a weekly basis.
+					</para>
+				</project>
+
+				<project>
+					<title>Deployment of core database infrastructure.</title>
+					<para>
+					Deployed 2 Oracle RAC clusters, each consisting of 3 Dell 6850's. They are equipped with Qual Dual Core
+					Xeon's and 32 Gb of RAM, running RedHat Enterprise Linux 4.0 64bit edition.
+					One environment is for staging and one is for production. EMC attached. This environment is used for 
+					our Data Warehouse, our Transaction Processing Software and our Credit Card Clearing application. It is a 
+					fundamental infrastructure component. The hardware and software was deployed in 3 business days.
+					</para>
+				</project>
+
+				<project>
+					<title>File Integrity Checking</title>
+					<para>
+						Deployment of file integrity checking across 100 UNIX servers using fully open source software.
+						Used integrit <url>http://integrit.sf.net</url> and some custom shell scripts which were submitted
+						back upstream for inclusion.
+					</para>
+				</project>
+
+			</projects>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows/network/security consulting for various startups and defense contractors</jobtitle>
+	<employer>Multiple entities</employer>
+	<period>
+	<from><date><month>February</month><year>2005</year></date></from>
+	<to><date><month>October</month><year>2005</year></date></to>
+	</period>
+		<projects>
+			<project>
+				<para>
+     				LAMP Deployment: Deployed a Debian Linux/Apache/MySQL/PHP system and educated the System Administration and Development
+      				staff on configuration and use for an insurance company 
+	  			</para>
+			</project>
+
+			<project>
+				<para>
+     				Corporate Linux Deployment/Migration: Provided assistance to a medium sized engineering firm with a near 100% 
+					conversion to Linux on the desktop and server. Utilizing SUSE Professional 6.5 for desktops and Debian GNU/Linux for 
+					servers (Email/File Server/DNS/DHCP). 
+				</para>
+			</project>
+
+			<project>
+				<para>
+     				Linux Deployment/Migration: Providing on going assistance to a small software development firm with a near 100% 
+					conversion to Linux. Utilizing Ubuntu Linux for desktops and Debian GNU/Linux for servers 
+					(Email/File/LDAP/DNS/DHCP). 
+				</para>
+			</project>
+		</projects>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows Systems Engineer</jobtitle>
+	<employer>GSI Commerce (via acquistion of Newroads Inc)</employer>
+	<period>
+		<from><date><month>July</month><year>2002</year></date></from> 
+		<to><date><month>February</month><year>2005</year></date></to>
+	</period>
+
+		<projects>
+			<project>
+				<title>Disaster Recovery from an Informix Database Failure</title>
+				<para>
+      			Assisted in the design/testing/and execution of a disaster recovery in real time
+      			(on-the-fly). Wrote and documented the use of several utilities that cut down the amount of time to recovery by 30
+      			percent.
+	  			</para>
+			</project>
+
+			<project>
+    			<title>Streamlined the FTP Server Configuration process</title>
+				<para>
+				Streamlined the system configuration and new account creation process for ProFTPD on a mission critical FTP server. 
+				This allowed faster turn around times and freed up I.T. resources. 
+				</para>
+			</project>
+
+			<project>
+				<title>Deployed open-source Remote Control Software</title>
+				<para>
+      			Deplopyed/Secured/Optimized/Maintained UltraVNC remote control software. This allowed the Infrastructure Support team to more
+      			rapidly respond to users support requests, and by doing so increase compliance with Service Level Agreements and increase
+      			end-user satisfaction. 
+	  			</para>
+			</project>
+
+			<project>
+				<title>Network Infrastructure Upgrade</title>
+				<para>
+				Upgraded the network from hubs to Linksys managed switches to increase network performance and usability/reliability. 
+				No network downtime occurred in the process of the upgrade 
+				</para>
+			</project>
+
+			<project>
+			<title>Hardware/Software Inventory Solution</title>
+			<para>
+			Wrote a custom software/hardware monitoring/reporting system to ensure compliance with software licensing and obtain an 
+			accurate overview of company assets for inventory and disaster recovery purposes. Utilized WMI/Visio/Microsoft Access
+			</para>
+			</project>
+			</projects>
+		</job>
+ </history>
+
+	<awards>
+		<title>Classes/Courses</title>
+			<award>
+				<title>Course 319: Technical Writing A Comprehensive Hands On Introduction</title>
+				<organization>Learning Tree International</organization>
+				<date><month>May</month> <year>2004</year></date>
+				<para>
+				This course showed the entire process of developing clear concise effective technical writing in less time, that meets the needs 
+				of the audience.
+				</para>
+			</award>
+
+			<award>
+				<title>Course 364: Introduction to Internetworking Switches And Routers</title>
+				<organization>Learning Tree International</organization>
+				<date><month>October</month><year>2004</year></date>
+				<para>
+				This workshop presented a conceptual overview of networking fundemntals and technology.
+				</para>
+			</award>
+	</awards>
+
+	<misc>
+		<para>
+		I founded an open source project to capture information on the Excel file format.
+		</para>
+   
+   		<projects>
+			<project>
+				<title>The Chicago Project</title>
+					<para>
+					If you ever open an Excel file in OpenOffice you are using code that I helped write via extensive research on the Excel file format. 
+					I also am the maintainer of the stand alone xlhtml software which is a command line xls convertor. 
+			 		This project produced code and documentation to assist developers working with the Microsoft Excel and compound
+    				document/structured storage file formats on non Microsoft platforms. 
+	  				</para>
+			</project>
+		</projects>
+
+		<para>
+		I am a very active participant in the greater Los Angeles information technology community.
+		</para>
+
+		<projects>
+			<project>
+				<title> User groups </title>
+					<para>
+					I have presented numerous times at the Unix Users Association of Southern California (LA and OC chapters). Please see http://www.uuasc.org for details.
+					I am a frequent contributor to the mailing list as well.
+					</para>
+
+					<para>
+					I am a frequent presenter and participant (both in person and via mailing lists) at numerous Linux User Groups throughout the southern California region. 
+					This includes LiLAX, SFVLUG, SCLUG, SGVLUG.
+					</para>
+				</project>
+		</projects>
+	</misc>
+
+  <copyright>
+    <year>2010</year>
+    <legalnotice>
+      <para>Redistrubtion as is allowed. No modifications without prior written consent.</para>
+    </legalnotice>
+  </copyright>
+    
+</resume>

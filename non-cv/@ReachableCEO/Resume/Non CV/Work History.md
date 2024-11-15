@@ -1,0 +1,10 @@
+- Insight Global - CDK Global , Senior Systems Engineer, July 2024 - October 2024
+- TCS - Apple Computer - Senior Systems Engineer, March 2024 - July 2024
+- Shein.com - Senior SIte Reliability Engineer, December 2022 - August 2023
+- 3M - Site Reliability Engineer, March 2020 - November 2022
+- Dell Residency - Senior Systems Engineer, October 2019 - March 2020
+- TippingPoint - Senior  Systems Engineer, March 2012 - June 2019 
+- HostGator - Automation and Escalation Engineer, March 2011 - May 2012
+- RippleTV -  Senior Systems Administrator, October 2008 - Jaunary 2010
+- Walt Disney Internet Group - Site Reliability Engineer, August 2006 - September 2007
+- GSI Commerce -  Systems Administrator -  March 2002 - February 2005

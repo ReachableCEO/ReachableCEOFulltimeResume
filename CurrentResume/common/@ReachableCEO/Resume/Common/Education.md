@@ -1,5 +1,4 @@
 Education
 ---------
 
-High School Graduate , 2002
-
+High School Graduate

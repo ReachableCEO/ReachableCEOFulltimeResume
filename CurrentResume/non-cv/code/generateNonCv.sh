@@ -27,6 +27,8 @@ unset IFS
 
 #First html, for resume.reachableceo.com use
 
+#Use pandoc 
+
 pandoc \
   --from=markdown \
   --to=html \
@@ -36,12 +38,16 @@ pandoc \
 
 # pdf/doc, for sending to hiring managers/recruiters via email (and also available on resume.reachableceo.com)
 
+#use wktohtml
+
 pandoc \
   --from=markdown \
   --to=html \
   -o /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.html \
   -c resume-css-stylesheet.css \
 	../output/intermediate/CharlesNWybleShortResume.md 
+
+#Use pandoc
 
 pandoc \
   --from=markdown \

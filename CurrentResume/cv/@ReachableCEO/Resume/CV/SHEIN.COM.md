@@ -1,3 +1,4 @@
+
 - Streamlined engineer onboarding by documenting and overhauling the process, consolidating disparate guides into a comprehensive modular set of documents.
 - Established a taxonomy for team documentation in the wiki, implementing Conﬂuence best practices for a proper knowledge base.
 - Served as the SRE Liaison for cybersecurity functions, ensuring compliance with data locality/partition requirements and pending federal data privacy legislation.

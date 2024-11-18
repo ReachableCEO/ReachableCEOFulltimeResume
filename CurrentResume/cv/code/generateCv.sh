@@ -27,7 +27,7 @@ echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
 IFS=$'\n\t'
 for position in $(cat ../../common/WorkHistory.csv); do
 echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
-echo $position >> ../output/intermediate/human/CharlesNWybleLongResume.md
+echo $position | sed -e 's/|//g' >> ../output/intermediate/human/CharlesNWybleLongResume.md
 POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
 cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
 echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md

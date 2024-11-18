@@ -1,3 +1,4 @@
-   - Contributed to disaster recovery from an Informix Database failure.
-   - Streamlined FTP server conflguration and deployed open-source remote control software.
-   -  Upgraded network infrastructure from hubs to managed switches.
+
+- Contributed to disaster recovery from an Informix Database failure.
+- Streamlined FTP server conflguration and deployed open-source remote control software.
+-  Upgraded network infrastructure from hubs to managed switches.

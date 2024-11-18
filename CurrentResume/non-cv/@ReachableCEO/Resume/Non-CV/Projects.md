@@ -1,5 +1,6 @@
 
-## Projects
+Projects
+--------
 
 - Fedora to Debian field switch
 - Datacenter buildout in 86 days for 8 billion dollars 

@@ -1,3 +1,7 @@
+
+Skills
+------
+
 - **Linux**: RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering , AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC. 22 years
 - **Unix**: HPUX/Solaris 5 years
 - **Windows**: Server (2008 - 2016), Windows client automated deployment (7,8,10,11), Active Directory, Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups, LDAP. 22 years
@@ -14,3 +18,4 @@
 - **Ticket / incident / project management**: Jira, ServiceNow,Redmine,RT. 20 years.
 - **Git**: branching, merging, multiple teams, external vendors, submodules etc. 15 years
 - **Current growth/learning focus**: Prometheus, Grafana, CI/CD, GCP, AWS, Azure, Kubernetes, Helm (2 year in dev labs)
+

@@ -1,11 +1,14 @@
-
-## Contact Info
-
 Charles N Wyble
-Senior Systems Engineer 
-reachableceo@reachableceo.com
-818 280 7059
-Austin TX / Raleigh NC / Remote 
+=====
+
+#### Senior System Engineer/SRE with extensive Linux/Windows/Networking
+##### [ [Github Profile](https://github.com/reachableceo) ] . [ reachableceo@reachableceo.com ] . [ 818 280 7059 ]
+Austin TX / Raleigh NC / Remote
+
+
+Skills
+------
+
 - **Linux**: RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering , AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC. 22 years
 - **Unix**: HPUX/Solaris 5 years
 - **Windows**: Server (2008 - 2016), Windows client automated deployment (7,8,10,11), Active Directory, Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups, LDAP. 22 years
@@ -23,13 +26,19 @@ Austin TX / Raleigh NC / Remote
 - **Git**: branching, merging, multiple teams, external vendors, submodules etc. 15 years
 - **Current growth/learning focus**: Prometheus, Grafana, CI/CD, GCP, AWS, Azure, Kubernetes, Helm (2 year in dev labs)
 
-## Projects
+
+Projects
+--------
 
 - Fedora to Debian field switch
 - Datacenter buildout in 86 days for 8 billion dollars 
 - Global AD build out/PCI compliance 
 - other cool project (go through CV to find) #todo
 - other cool project (go through CV to find) #todo
+
+
+Work history
+------------
 
 - **Insight Global - CDK Global** | **Senior System Engineer** | July 2024 - October 2024
 - **TCS - Apple Computer** | **Senior System Administrator** | March 2024 - July 2024
@@ -42,6 +51,9 @@ Austin TX / Raleigh NC / Remote
 - **Walt Disney Internet Group** | **Site Reliability Engineer** | August 2006 - September 2007
 - **Electronic Clearing House** | **Senior Linux System Administrator** | April 2005 - July 2006
 - **GSI Commerce** | **HPUX/Windows/Linux System Administrator** |  March 2002 - February 2005
-## Education
+
+Education
+---------
 
 High School Graduate , 2002
+

@@ -18,9 +18,16 @@ for file in "${NonCvResumeInputFiles[@]}"; do
 done
 unset IFS
 
-# Run pandoc to generate PDF/DOC into output dir
+# Run pandoc to generate HTML/PDF/DOC into output dir
 
 #pandoc \
 #	< ../output/intermediate/CharlesNWybleShortResume.md \
 #     	--from=markdown \
 #	    --output=../output/final/CharlesNWybleShortResume.pdf
+
+pandoc \
+  --from=markdown \
+  --to=html \
+  -o ../output/final/CharlesNWybleShortResume.html \
+  -c resume-css-stylesheet.css \
+	../output/intermediate/CharlesNWybleShortResume.md 

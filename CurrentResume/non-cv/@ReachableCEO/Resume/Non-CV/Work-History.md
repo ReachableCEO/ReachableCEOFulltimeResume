@@ -1,3 +1,6 @@
+
+## Work History
+
 - Insight Global - CDK Global , Senior Systems Engineer, July 2024 - October 2024
 - TCS - Apple Computer - Senior Systems Engineer, March 2024 - July 2024
 - Shein.com - Senior SIte Reliability Engineer, December 2022 - August 2023
@@ -7,4 +10,7 @@
 - HostGator - Automation and Escalation Engineer, March 2011 - May 2012
 - RippleTV -  Senior Systems Administrator, October 2008 - Jaunary 2010
 - Walt Disney Internet Group - Site Reliability Engineer, August 2006 - September 2007
+- Electronic Clearing House - Senior System Administrator - April 2005 - July 2006
 - GSI Commerce -  Systems Administrator -  March 2002 - February 2005
+- Contracting/consulting - Resident Expert System/Network Admin and Programmer 2002 - 2022 
+

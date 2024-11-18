@@ -16,29 +16,13 @@ employmentPlatforms=(
   "ziprecruiter"
 )
 
-# Array of my various job positions
-
-positions=(
-  "Insight Global"
-  "TCS  Apple Computer"
-  "Shein.com"
-  "3M" 
-  "Dell Residency  Confidential End CLients (government sector)"
-  "TippingPoint"
-  "HostGator"
-  "RippleTV"
-  "Walt Disney Internet Group"
-  "Electronic Clearing House" 
-  "GSI Commerce"
-)
-
 # Combine markdown files into single input file for pandoc
 #Pull in my contact info
 cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
 echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
 
 #And here we do some magic...
-#Pull in my long form position summary data from each position
+#Pull in my employer/title/dates of employment and my long form position summary data from each position
 
 IFS=$'\n\t'
 for position in $(cat ../../common/WorkHistory.csv); do
@@ -64,6 +48,7 @@ pandoc \
 	../output/intermediate/human/CharlesNWybleLongResume.md
 
 #Fecond pdf, for the various employment platforms
+#Todo, this is the big delivrable that we've been building to all day
 
 #IFS=$'\n\t'
 #for platform in ${employmentPlatforms[@]}; do

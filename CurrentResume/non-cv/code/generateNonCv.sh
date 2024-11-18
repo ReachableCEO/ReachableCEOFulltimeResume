@@ -6,7 +6,7 @@ NonCvResumeInputFiles=(
   "../../common/@ReachableCEO/Resume/Common/Contact-Info.md"
   "../@ReachableCEO/Resume/Non-CV/Skills.md"
   "../@ReachableCEO/Resume/Non-CV/Projects.md"
-  "../@ReachableCEO/Resume/Non-CV/Work-History.md"
+  "../../common/@ReachableCEO/Resume/Common/Work-History.md"
   "../../common/@ReachableCEO/Resume/Common/Education.md"
 )
 
@@ -25,9 +25,15 @@ unset IFS
 #     	--from=markdown \
 #	    --output=../output/final/CharlesNWybleShortResume.pdf
 
+#First html, for resume.reachableceo.com
+
 pandoc \
   --from=markdown \
   --to=html \
   -o ../output/final/CharlesNWybleShortResume.html \
   -c resume-css-stylesheet.css \
 	../output/intermediate/CharlesNWybleShortResume.md 
+
+# Second pdf, for sending to hiring managers/recruiters
+
+# Third pdf, for sending to hiring managers/recruiters

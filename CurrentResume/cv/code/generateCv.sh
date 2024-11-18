@@ -37,8 +37,13 @@ positions=(
 cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
 
 #And here we do some magic...
-#Pull in my long form position summary from each position
-#TODO
+#Pull in my long form position summary data from each position
+
+IFS=$'\n\t'
+for position in $(cat ../../common/WorkHistory.csv|awk -F '|' '{print $1}'); do
+ cat "../@ReachableCEO/Resume/CV/$position.md" >> ../output/intermediate/human/CharlesWybleLongResume.md
+done
+
 
 
 #Pull in my education info

@@ -1,8 +1,6 @@
-
-## Contact Info
-
 Charles N Wyble
-Senior Systems Engineer 
-reachableceo@reachableceo.com
-818 280 7059
-Austin TX / Raleigh NC / Remote 
+=====
+
+#### Senior System Engineer/SRE with extensive Linux/Windows/Networking
+##### [ [Github Profile](https://github.com/reachableceo) ] . [ reachableceo@reachableceo.com ] . [ 818 280 7059 ]
+Austin TX / Raleigh NC / Remote

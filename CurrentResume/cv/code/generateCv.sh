@@ -35,16 +35,19 @@ positions=(
 # Combine markdown files into single input file for pandoc
 #Pull in my contact info
 cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
+echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
 
 #And here we do some magic...
 #Pull in my long form position summary data from each position
 
 IFS=$'\n\t'
-for position in $(cat ../../common/WorkHistory.csv|awk -F '|' '{print $1}'); do
- cat "../@ReachableCEO/Resume/CV/$position.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
+for position in $(cat ../../common/WorkHistory.csv); do
+echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
+echo $position >> ../output/intermediate/human/CharlesNWybleLongResume.md
+POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
+cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
+echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
 done
-
-
 
 #Pull in my education info
 cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md

@@ -25,15 +25,27 @@ unset IFS
 #     	--from=markdown \
 #	    --output=../output/final/CharlesNWybleShortResume.pdf
 
-#First html, for resume.reachableceo.com
+#First html, for resume.reachableceo.com use
 
 pandoc \
   --from=markdown \
   --to=html \
-  -o ../output/final/CharlesNWybleShortResume.html \
+  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.html \
   -c resume-css-stylesheet.css \
 	../output/intermediate/CharlesNWybleShortResume.md 
 
-# Second pdf, for sending to hiring managers/recruiters
+# pdf/doc, for sending to hiring managers/recruiters via email (and also available on resume.reachableceo.com)
 
-# Third pdf, for sending to hiring managers/recruiters
+pandoc \
+  --from=markdown \
+  --to=html \
+  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.html \
+  -c resume-css-stylesheet.css \
+	../output/intermediate/CharlesNWybleShortResume.md 
+
+pandoc \
+  --from=markdown \
+  --to=html \
+  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.html \
+  -c resume-css-stylesheet.css \
+	../output/intermediate/CharlesNWybleShortResume.md 

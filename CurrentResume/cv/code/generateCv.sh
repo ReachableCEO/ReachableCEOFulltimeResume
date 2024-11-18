@@ -41,7 +41,7 @@ cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> ../output/inte
 
 IFS=$'\n\t'
 for position in $(cat ../../common/WorkHistory.csv|awk -F '|' '{print $1}'); do
- cat "../@ReachableCEO/Resume/CV/$position.md" >> ../output/intermediate/human/CharlesWybleLongResume.md
+ cat "../@ReachableCEO/Resume/CV/$position.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
 done
 
 

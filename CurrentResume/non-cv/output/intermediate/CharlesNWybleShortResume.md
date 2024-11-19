@@ -2,8 +2,9 @@ Charles N Wyble
 =====
 
 #### Senior (Staff level) System Engineer/SRE/Architect with extensive Linux/Windows/Networking/Cyber security background and experience 
-##### [ [Github Profile](https://github.com/reachableceo) ] . [ reachableceo@reachableceo.com ] . [ 818 280 7059 ]
+##### [ [Github Profile](https://github.com/reachableceo) ] . [ [Linkedin](www.linkedin.com/in/charles-wyble-412007337) [ reachableceo@reachableceo.com ] . [ 818 280 7059 ]
 Austin TX / Raleigh NC / Remote
+ 
 
 Skills
 ------
@@ -25,6 +26,7 @@ Skills
 - **Git** (15 years) : branching, merging, multiple teams, external vendors, submodules etc. 
 - **Current growth/learning focus** : Prometheus, Grafana, CI/CD, GCP, AWS, Azure, Kubernetes, Helm. Also Saylor.org MBA program.
 
+ 
 
 Projects
 --------
@@ -35,13 +37,29 @@ Projects
 - other cool project (go through CV to find) #todo
 - other cool project (go through CV to find) #todo
 
+ 
 
 Work history
 ------------
 
 - **CDK Global**  **Senior System Engineer** July 2024 - October 2024
+	
+	- Worked with Hashicorp Packer/Vault and VmWare to create RHEL9 image and fully automated installation process.
+	- Performed a number of security vulnerability remediations end to end from initial report to gathering proof of remediation. 
+	
+	
 - **Apple Computer**  **Senior System Administrator**  March 2024 - July 2024
+	
+	- Extensive change management across P0/P1 systems and incidents with CEO level visibility. 
+	- Improved the on-boarding and core day to day procedural documentation for the team.
+
 - **SHEIN.com**  **Staff Site Reliability Engineer**  December 2022 - August 2023
+
+	- Provided comprehensive project management/implementation expertise in migrating SHEIN.COM US business to US owned/operated systems. 
+	- Improved the on-boarding and core day to day procedural documentation for the team.
+	- Did extensive work with self-hosted/internal LLM to provide a unified knowledge access experience for a diverse, global, multi lingual, multi modal workforce. 
+
+
 - **3M** **Senior Site Reliability Engineer** March 2020 - November 2022
 - **Dell Residency** **Resident System/Network Expert** October 2019 - March 2020
 - **TippingPoint** **Staff System/Network Architect** March 2012 - June 2019
@@ -50,7 +68,7 @@ Work history
 - **Walt Disney Internet Group** **Site Reliability Engineer**  August 2006 - September 2007
 - **Electronic Clearing House** **Senior Linux System Administrator** April 2005 - July 2006
 - **GSI Commerce** **HPUX/Windows/Linux System Administrator** March 2002 - February 2005
-
+ 
 Education
 ---------
 

@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Cleanup from previous run
-rm ../output/intermediate/human/CharlesNWybleLongResume.md
-
 # Array of employment platforms
 
-employmentPlatforms=(
+EmploymentPlatforms=(
   "glassdoor"
+  "dice"
   "guru"
   "indeed"
   "linkedin"
@@ -16,25 +14,42 @@ employmentPlatforms=(
   "ziprecruiter"
 )
 
+HumanOutputFile="../output/intermediate/human/CharlesNWybleLongResume.md"
+
+# Cleanup from previous run
+rm ../output/intermediate/human/CharlesNWybleLongResume.md
+
+
+for platform in "${EmploymentPlatforms[@]}"; do
+MachineOutputIntermediateFile="../output/intermediate/machine/$platform/CharlesNWybleLongResume.md"
+echo "Removing old resume for $platform..."
+rm "$MachineOutputIntermediateFile"
+done
+
+
+#####################################
+# Human readable CV
+#####################################
+
 # Combine markdown files into single input file for pandoc
 #Pull in my contact info
-cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
-echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
+cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $HumanOutputFile
+echo " " >> $HumanOutputFile
 
 #And here we do some magic...
 #Pull in my employer/title/dates of employment and my long form position summary data from each position
 
 IFS=$'\n\t'
 for position in $(cat ../../common/WorkHistory.csv); do
-echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
-echo $position | sed -e 's/|//g' >> ../output/intermediate/human/CharlesNWybleLongResume.md
+echo " " >> $HumanOutputFile
+echo $position | sed -e 's/|//g' >> $HumanOutputFile
 POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
-cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
-echo " " >> ../output/intermediate/human/CharlesNWybleLongResume.md
+cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> $HumanOutputFile
+echo " " >> $HumanOutputFile
 done
 
 #Pull in my education info
-cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> ../output/intermediate/human/CharlesNWybleLongResume.md
+cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> $HumanOutputFile
 
 # Run pandoc/etc to generate HTML/PDF/DOC into output dir
 
@@ -45,18 +60,49 @@ pandoc \
   --to=html \
   -o /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleLongResume.html \
   -c resume-css-stylesheet.css \
-	../output/intermediate/human/CharlesNWybleLongResume.md
+  $HumanOutputFile
 
-#Fecond pdf, for the various employment platforms
-#Todo, this is the big delivrable that we've been building to all day
+############################################################
+# Machine readable CV for the various employment platforms
+############################################################
 
-#IFS=$'\n\t'
-#for platform in ${employmentPlatforms[@]}; do
-#echo "Creating resume for $platform..."
-#pandoc \
-#  --from=markdown \
-#  --to=pdf \
-#  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleLongResume.html \
-#  -c resume-css-stylesheet.css \
-#	../output/intermediate/machine/$platform/CharlesNWybleLongResume.md 
-#done
+#Per platform specific needs....
+# ZipRecruiter (position parsing)
+# DIce (skills)
+# Robert Half (doesn't even let you upload a resume???!?)
+
+IFS=$'\n\t'
+for platform in "${EmploymentPlatforms[@]}"; do
+  echo "Creating pdf resume for $platform..."
+  MachineOutputIntermediateFile="../output/intermediate/machine/$platform/CharlesNWybleLongResume.md"
+
+  #Pull in my contact info
+  cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> "$MachineOutputIntermediateFile"
+  echo " " >> "$MachineOutputIntermediateFile"
+
+  #Pull in my skills
+  cat "../../common/@ReachableCEO/Resume/Common/Skills.md" >> "$MachineOutputIntermediateFile"
+  echo " " >> "$MachineOutputIntermediateFile"
+
+  #And here we do some magic...
+  #Pull in my employer/title/dates of employment and my long form position summary data from each position
+
+  IFS=$'\n\t'
+  for position in $(cat ../../common/WorkHistory.csv); do
+  echo " " >> $MachineOutputIntermediateFile
+  echo $position | sed -e 's/|//g' >> $MachineOutputIntermediateFile
+  POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
+  cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> "$MachineOutputIntermediateFile"
+  echo " " >> "$MachineOutputIntermediateFile"
+  done
+
+  #Pull in my education info
+  cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> "$MachineOutputIntermediateFile"
+
+  pandoc \
+   --from=markdown \
+   --to=pdf\
+  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/machine/$platform/CharlesNWybleLongResume.pdf \
+  -c resume-css-stylesheet.css \
+  "$MachineOutputIntermediateFile"
+done

@@ -18,7 +18,7 @@ cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $output_file
 echo " " >> $output_file
 
 #Pull in my skills
-cat "../@ReachableCEO/Resume/Non-CV/Skills.md" >> $output_file
+cat "../../common/@ReachableCEO/Resume/Common/Skills.md" >> $output_file
 echo " " >> $output_file
 
 #Pull in my projects 

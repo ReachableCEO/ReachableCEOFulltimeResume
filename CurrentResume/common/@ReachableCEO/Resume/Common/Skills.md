@@ -17,5 +17,6 @@ Skills
 - **Programming/Automation** (22 years) : Bash , J2ME, PHP, Ruby, PowerShell, TCL/TK, Java. 
 - **Ticket / incident / project management** (22 years): Jira, ServiceNow,Redmine,RT.
 - **Git** (15 years) : branching, merging, multiple teams, external vendors, submodules etc. 
+- **LLM** (2 years) : OpenWebUI, Apple Silicon, QA/validation, RAG, data cleaning/prep etc.
 - **Current growth/learning focus** : Prometheus, Grafana, CI/CD, GCP, AWS, Azure, Kubernetes, Helm. Also Saylor.org MBA program.
 

@@ -40,7 +40,7 @@ echo " " >> $IntermediateOutputFile
 #First html, for resume.reachableceo.com use
 
 pandoc \
-$HumanIntermediateOutputFile \
+$IntermediateOutputFile \
 --template eisvogel \
 --metadata-file=../common/HumanOutput.yml \
 --from markdown \

@@ -8,20 +8,18 @@ EmploymentPlatforms=(
   "guru"
   "indeed"
   "linkedin"
-  "roberthalf"
   "teal"
   "upwork"
   "ziprecruiter"
 )
 
-HumanOutputFile="../output/intermediate/human/CharlesNWybleLongResume.md"
+HumanIntermediateOutputFile="./output/intermediate/human/CharlesNWybleCV.md"
 
 # Cleanup from previous run
-rm ../output/intermediate/human/CharlesNWybleLongResume.md
-
+rm $HumanIntermediateOutputFile
 
 for platform in "${EmploymentPlatforms[@]}"; do
-MachineOutputIntermediateFile="../output/intermediate/machine/$platform/CharlesNWybleLongResume.md"
+MachineOutputIntermediateFile="./output/intermediate/machine/$platform/CharlesNWybleCV.md"
 echo "Removing old resume for $platform..."
 rm "$MachineOutputIntermediateFile"
 done
@@ -32,35 +30,39 @@ done
 #####################################
 
 # Combine markdown files into single input file for pandoc
+
 #Pull in my contact info
-cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $HumanOutputFile
-echo " " >> $HumanOutputFile
+cat "../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $HumanIntermediateOutputFile
+echo " " >> $HumanIntermediateOutputFile
 
 #And here we do some magic...
 #Pull in my employer/title/dates of employment and my long form position summary data from each position
 
 IFS=$'\n\t'
-for position in $(cat ../../common/WorkHistory.csv); do
-echo " " >> $HumanOutputFile
-echo $position | sed -e 's/|//g' >> $HumanOutputFile
+for position in $(cat ../common/WorkHistory.csv); do
+echo " " >> $HumanIntermediateOutputFile
+echo $position | sed -e 's/|//g' >> $HumanIntermediateOutputFile
 POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
-cat "../@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> $HumanOutputFile
-echo " " >> $HumanOutputFile
+cat "./@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md" >> $HumanIntermediateOutputFile
+echo " " >> $HumanIntermediateOutputFile
 done
 
 #Pull in my education info
-cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> $HumanOutputFile
+cat "../common/@ReachableCEO/Resume/Common/Education.md" >> $HumanIntermediateOutputFile
 
 # Run pandoc/etc to generate HTML/PDF/DOC into output dir
 
 #First html/pdf/doc, for resume.reachableceo.com use
 
 pandoc \
-  --from=markdown \
-  --to=html \
-  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleLongResume.html \
-  -c resume-css-stylesheet.css \
-  $HumanOutputFile
+$HumanIntermediateOutputFile \
+--template eisvogel \
+--metadata-file=../common/HumanOutput.yml \
+--from markdown \
+--to=pdf \
+--output /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleCV.pdf
+
+exit
 
 ############################################################
 # Machine readable CV for the various employment platforms
@@ -122,21 +124,21 @@ pandoc \
 IFS=$'\n\t'
 for platform in "${EmploymentPlatforms[@]}"; do
   echo "Creating pdf resume for $platform..."
-  MachineOutputIntermediateFile="../output/intermediate/machine/$platform/CharlesNWybleLongResume.md"
+  MachineOutputIntermediateFile="./output/intermediate/machine/$platform/CharlesNWybleCV.md"
 
   #Pull in my contact info
-  cat "../../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> "$MachineOutputIntermediateFile"
+  cat "../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> "$MachineOutputIntermediateFile"
   echo " " >> "$MachineOutputIntermediateFile"
 
   #Pull in my skills
-  cat "../../common/@ReachableCEO/Resume/Common/Skills.md" >> "$MachineOutputIntermediateFile"
+  cat "../common/@ReachableCEO/Resume/Common/Skills.md" >> "$MachineOutputIntermediateFile"
   echo " " >> "$MachineOutputIntermediateFile"
 
   #And here we do some magic...
   #Pull in my employer/title/dates of employment and my long form position summary data from each position
 
   IFS=$'\n\t'
-  for position in $(cat ../../common/WorkHistory.csv); do
+  for position in $(cat ../common/WorkHistory.csv); do
   echo " " >> $MachineOutputIntermediateFile
   echo $position | sed -e 's/|//g' >> $MachineOutputIntermediateFile
   POSITION_FILE_NAME="$(echo $position | awk -F '|' '{print $1}')"
@@ -145,12 +147,13 @@ for platform in "${EmploymentPlatforms[@]}"; do
   done
 
   #Pull in my education info
-  cat "../../common/@ReachableCEO/Resume/Common/Education.md" >> "$MachineOutputIntermediateFile"
+  cat "../common/@ReachableCEO/Resume/Common/Education.md" >> "$MachineOutputIntermediateFile"
 
-  pandoc \
-   --from=markdown \
-   --to=pdf\
-  -o /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/machine/$platform/CharlesNWybleLongResume.pdf \
-  -c resume-css-stylesheet.css \
-  "$MachineOutputIntermediateFile"
+pandoc \
+$MachineOutputIntermediateFile \
+--template eisvogel \
+--metadata-file=../common/HumanOutput.yml \
+--from markdown \
+--to=pdf \
+--output /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleCV.pdf
 done

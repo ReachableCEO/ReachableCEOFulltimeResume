@@ -77,4 +77,4 @@ Work history
 Education
 ---------
 
-High School Graduate
+High School Graduate 

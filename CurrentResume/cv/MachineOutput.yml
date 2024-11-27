@@ -1,0 +1,13 @@
+title: "TSYS Group Ancillary Businesses Joint Venture Daal Memo"
+titlepage: true
+author: [Charles N Wyble]
+date: \today
+toc: true
+toc-own-page: true
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "\\thetitle"
+footer-center: "Copyright Turnkey Network Systems LLC"
+footer-right: "\\theauthor"
+page-background: "D:/tsys/@ReachableCEO/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background5.pdf"

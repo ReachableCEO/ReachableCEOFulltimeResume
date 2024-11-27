@@ -2,8 +2,7 @@ Charles N Wyble
 =====
 
 #### Senior (Staff level) System Engineer/SRE/Architect with extensive Linux/Windows/Networking/Cyber security background and experience 
-##### [ [Github Profile](https://github.com/reachableceo) ] . [ [Linkedin](www.linkedin.com/in/charles-wyble-412007337) [ reachableceo@reachableceo.com ] . [ 818 280 7059 ]
-Austin TX / Raleigh NC / Remote
+##### [ [Github Profile](https://github.com/reachableceo) ] .  [ [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337) ] . [ reachableceo@reachableceo.com ] . [ 818 280 7059 ] . [ Austin TX / Raleigh NC / Remote ]
  
  
 CDK Global Senior System Engineer  July 2024 - October 2024
@@ -28,12 +27,6 @@ SHEIN.com Staff Site Reliability Engineer  December 2022 - August 2023
 
 - Supported Vendavo on RedHat Linux, managed releases, and provided day-to-day developer support.
 -  Created a homegrown YAML conflguration management system, utilizing bash scripting and YAML templates with a CSV-based key/value store to eThciently manage and regenerate environment-speciflc variables for a line-of-business application across multiple development, testing, staging, and production environments. 
- 
-Dell Residency Resident System/Network Expert  October 2019   March 2020
-
-- Rolled out centralized Active Directory authentication, deployed Dell OpenManage, and upgraded network equipment.
-- Deployed password vault, Active Directory PKI, and implemented a ground-up network redesign.
-- Designed VmWare NSX network. 
  
 TippingPoint Staff System/Network Architect  March 2012 - June 2019
 
@@ -77,7 +70,9 @@ GSI Commerce HPUX/Windows/Linux System Administrator   March 2002 -  February 20
 - Contributed to disaster recovery from an Informix Database failure.
 - Streamlined FTP server conflguration and deployed open-source remote control software.
 -  Upgraded network infrastructure from hubs to managed switches. 
-Education
----------
+ 
+Reachable CEO Enterprises  Freelancer  January 2001 - Present
+ 
+## Education
 
 High School Graduate

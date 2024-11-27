@@ -45,4 +45,4 @@ $HumanIntermediateOutputFile \
 --metadata-file=../common/HumanOutput.yml \
 --from markdown \
 --to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleShortResume.pdf
+--output /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf

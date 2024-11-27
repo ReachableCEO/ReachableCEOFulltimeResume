@@ -1,4 +1,3 @@
-Education
----------
+## Education
 
 High School Graduate

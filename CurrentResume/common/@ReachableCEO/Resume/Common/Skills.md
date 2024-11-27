@@ -1,6 +1,5 @@
 
-Skills
-------
+## Skills
 
 - **Linux** (22 years) : RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering, AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC. 
 - **Unix** ( 5 years) : HPUX/Solaris

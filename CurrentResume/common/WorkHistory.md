@@ -1,6 +1,3 @@
-
-## Employment History
-
 **CDK Global**, *Senior System Engineer*, July 2024 - October 2024
 
 **Apple Computer**, *Senior System Administrator*, March 2024 - July 2024

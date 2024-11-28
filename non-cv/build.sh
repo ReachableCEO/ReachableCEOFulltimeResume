@@ -16,8 +16,31 @@ cat "../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $IntermediateOutp
 echo " " >> $IntermediateOutputFile
 
 #Pull in my skills
-cat "../common/@ReachableCEO/Resume/Common/Skills.md" >> $IntermediateOutputFile
-echo " " >> $IntermediateOutputFile
+
+echo "## Skills" >> "$IntermediateOutputFile"
+
+#Table heading
+
+
+
+#|       |       |       |
+#|  ---  |  ---  |  ---  |
+#|       |       |       |
+#|       |       |       |
+
+
+echo "|Skill|Experience|Skil Details|" >> $IntermediateOutputFile
+echo "|---|---|---|" >> $IntermediateOutputFile
+#Table rows
+IFS=$'\n\t'
+for skill in \
+$(cat ../common/@ReachableCEO/Resume/Common/Skills.csv); do
+SKILL_NAME="$(echo $skill|awk -F '|' '{print $1}')"
+SKILL_YEARS="$(echo $skill|awk -F '|' '{print $2}')"
+SKILL_DETAIL="$(echo $skill|awk -F '|' '{print $3}')"
+echo "|**$SKILL_NAME**|$SKILL_YEARS|$SKILL_DETAIL|" >> $IntermediateOutputFile
+done
+unset IFS
 
 #Pull in my projects 
 cat "./@ReachableCEO/Resume/Non-Cv/Projects.md" >> $IntermediateOutputFile

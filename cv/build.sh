@@ -22,7 +22,7 @@ rm $HumanIntermediateOutputFile
 # Combine markdown files into single input file for pandoc
 
 #Pull in my contact info
-cat "../common/@ReachableCEO/Resume/Common/Contact-Info.md" >> $HumanIntermediateOutputFile
+cat "../common/Contact-Info.md" >> $HumanIntermediateOutputFile
 echo " " >> $HumanIntermediateOutputFile
 
 echo "## Employment History" >> $HumanIntermediateOutputFile
@@ -53,7 +53,7 @@ done
 unset IFS
 
 #Pull in my education info
-cat "../common/@ReachableCEO/Resume/Common/Education.md" >> $HumanIntermediateOutputFile
+cat "../common/Education.md" >> $HumanIntermediateOutputFile
 
 # Run pandoc/etc to generate HTML/PDF/DOC into output dir
 
@@ -160,7 +160,7 @@ do
 done
 
   #Pull in my education info
-  cat "../common/@ReachableCEO/Resume/Common/Education.md" >> "$MachineOutputIntermediateFile"
+  cat "../common/Education.md" >> "$MachineOutputIntermediateFile"
 
 pandoc \
 $MachineOutputIntermediateFile \

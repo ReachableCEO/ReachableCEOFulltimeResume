@@ -28,7 +28,8 @@ cat "./@ReachableCEO/Resume/Non-Cv/Projects.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 
 #Pull in my work history
-cat "./@ReachableCEO/Resume/Non-CV/Work-History.md" >> $IntermediateOutputFile
+
+cat "../common/WorkHistory.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 
 #Pull in my education info

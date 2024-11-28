@@ -1,5 +1,5 @@
 title: "Charles N Wyble Resume"
-titlepage: true
+titlepage: false
 author: [Charles N Wyble]
 date: \today
 header-left: "\\hspace{1cm}"
@@ -7,5 +7,7 @@ header-center: "\\leftmark"
 header-right: "Page \\thepage"
 footer-left: "\\thetitle"
 footer-center: "Copyright Charles N Wyble"
-footer-right: "\\theauthor"
+footer-right: "Tenacity. Velocity. Focus."
+wrap-auto: preserve
+urlcolor: blue
 page-background: "D:/tsys/@ReachableCEO/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background5.pdf"

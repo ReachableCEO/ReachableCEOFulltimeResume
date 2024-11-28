@@ -37,19 +37,20 @@ echo "## Employment History" >> $HumanIntermediateOutputFile
 
 IFS=$'\n\t'
 for position in \
-$(cat ../common/WorkHistory.md); do
-echo "$position" >> $HumanIntermediateOutputFile
+$(cat ../common/WorkHistory.csv); do
+
+COMPANY="$(echo $position|awk -F ',' '{print $1}')"
+TITLE="$(echo $position|awk -F ',' '{print $2}')"
+DATEOFEMPLOY="$(echo $position|awk -F ',' '{print $3}')"
+
+echo " " >> "$HumanIntermediateOutputFile"
+echo "**$COMPANY** $TITLE $DATEOFEMPLOY" >> $HumanIntermediateOutputFile
 echo " " >> "$HumanIntermediateOutputFile"
 
-POSITION_FILE_NAME="$(echo "$position" \
-  | awk -F ',' '{print $1}' \
-  | sed -e 's/**/g')"
-
-cat ../cv/@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md >> "$HumanIntermediateOutputFile"
+cat ../cv/@ReachableCEO/Resume/CV/$COMPANY.md >> "$HumanIntermediateOutputFile"
 echo " " >> "$HumanIntermediateOutputFile"
 done
 unset IFS
-
 
 #Pull in my education info
 cat "../common/@ReachableCEO/Resume/Common/Education.md" >> $HumanIntermediateOutputFile

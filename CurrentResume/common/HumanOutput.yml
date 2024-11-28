@@ -5,9 +5,8 @@ date: \today
 header-left: "\\hspace{1cm}"
 header-center: "\\leftmark"
 header-right: "Page \\thepage"
-footer-left: "\\thetitle"
-footer-center: "Copyright Charles N Wyble"
-footer-right: "Tenacity. Velocity. Focus."
-wrap-auto: preserve
+footer-left: "[Charles Github](https://www.github.com/reachableceo/)"
+footer-center: "[Source code for this resume](https://git.knownelement.com/reachableceo/ReachableCEOResume) "
+footer-right: "Tenacity. Velocity. Focus"
 urlcolor: blue
 page-background: "D:/tsys/@ReachableCEO/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background5.pdf"

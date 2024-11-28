@@ -2,11 +2,7 @@
 
 rm ./output/intermediate/CharlesNWybleShortResume.md
 
-# todo. html version.
-#rm /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.html
-
 IntermediateOutputFile="./output/intermediate/CharlesNWybleShortResume.md"
-
 
 # Combine markdown files into single input file for pandoc
 
@@ -36,9 +32,7 @@ echo " " >> $IntermediateOutputFile
 cat "../common/@ReachableCEO/Resume/common/Education.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 
-# Run pandoc to generate HTML/PDF/DOC into output dir
-
-#First html, for resume.reachableceo.com use
+# Run pandoc to generate PDF into output dir
 
 pandoc \
 $IntermediateOutputFile \

@@ -42,9 +42,6 @@ Projects
 - other cool project (go through CV to find) #todo
 	- #todo Find and flesh out
  
-
-## Employment History
-
 **CDK Global**, *Senior System Engineer*, July 2024 - October 2024
 
 **Apple Computer**, *Senior System Administrator*, March 2024 - July 2024

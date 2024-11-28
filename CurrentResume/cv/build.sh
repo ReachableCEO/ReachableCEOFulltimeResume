@@ -42,9 +42,8 @@ echo "$position" >> $HumanIntermediateOutputFile
 echo " " >> "$HumanIntermediateOutputFile"
 
 POSITION_FILE_NAME="$(echo "$position" \
-  | awk -F ','|'{print $1}') \
-  | sed -e 's/**/g'
-  "
+  | awk -F ',' '{print $1}' \
+  | sed -e 's/**/g')"
 
 cat ../cv/@ReachableCEO/Resume/CV/$POSITION_FILE_NAME.md >> "$HumanIntermediateOutputFile"
 echo " " >> "$HumanIntermediateOutputFile"
@@ -66,6 +65,8 @@ $HumanIntermediateOutputFile \
 --from markdown \
 --to=pdf \
 --output /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleCV.pdf
+
+exit
 
 ############################################################
 # Machine readable CV for the various employment platforms

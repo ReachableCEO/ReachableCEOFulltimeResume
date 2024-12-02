@@ -3,6 +3,7 @@ Projects
 --------
 
 - Project managed a successful brand new data center build from bare dirt to serving content in 86 days. Oversaw 8 billion dollars of capital deployment. 
+- Led and consulted on multiple tier 1 payment compliance industry (PCI) implementations for some of the worlds largest brands (including at a payment processor).
 - Developed and implemented a process to switch thousands of desktops providing digital signage functionality from Fedora to Debian in a completely automated fashion using a custom initrd.
 - Developed and implemented an internal private cloud orchestration and provisioning system for a hardware development engineering team that handled the entire provisioning lifecycle for physical and virtual systems. 
 - - Developed and implemented standardized language and procedures and incident investigation automation for a large technical support organization with high turnover. 

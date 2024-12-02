@@ -1,5 +1,5 @@
 title: "Charles N Wyble Resume"
-titlepage: false
+titlepage: true
 author: [Charles N Wyble]
 date: \today
 header-left: "\\hspace{1cm}"

@@ -65,6 +65,10 @@ createMdProjects()
 {
 
 #Pull in my projects 
+
+echo "## Projects" >> "$IntermediateOutputFile"
+
+echo 
 cat "./Projects.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 

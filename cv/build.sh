@@ -47,7 +47,7 @@ echo " " >> "$HumanIntermediateOutputFile"
 echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $HumanIntermediateOutputFile
 echo " " >> "$HumanIntermediateOutputFile"
 
-cat ../cv/@ReachableCEO/Resume/CV/$COMPANY.md >> "$HumanIntermediateOutputFile"
+cat ./$COMPANY.md >> "$HumanIntermediateOutputFile"
 echo " " >> "$HumanIntermediateOutputFile"
 done
 unset IFS

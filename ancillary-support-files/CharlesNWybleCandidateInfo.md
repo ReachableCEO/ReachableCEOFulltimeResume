@@ -31,7 +31,8 @@ Here are answers to common questions you may have:
 | Graduated Year                        | 2002                                                                                   |
 | Name of school                        | Osborne Christian School                                                               |
 | Location of school                    | Los Angeles CA                                                                         |
-| Linkedin                              | [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337/)               |
+| Linkedin Profile                      | [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337/)               |
+| Github Profile                        | [Github Profile](https://www.github.com/ReachableCEO/)               |
 | Last project                          | Contract, ended October 2024                                                           |
 | DOB                                   | 09/14                                                                                  |
 | Pay expectation                       | Open to discuss, send RTR with best hourly/annual rate as appropriate for the position |

@@ -44,7 +44,25 @@ echo "\pagebreak" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 echo "## Employment History" >> $IntermediateOutputFile
 
-cat "../common/WorkHistory.md" >> $IntermediateOutputFile
+IFS=$'\n\t'
+for position in \
+$(cat ../common/WorkHistory.csv); do
+
+COMPANY="$(echo $position|awk -F ',' '{print $1}')"
+TITLE="$(echo $position|awk -F ',' '{print $2}')"
+DATEOFEMPLOY="$(echo $position|awk -F ',' '{print $3}')"
+
+echo " " >> "$HumanIntermediateOutputFile"
+echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $HumanIntermediateOutputFile
+echo " " >> "$HumanIntermediateOutputFile"
+
+cat ../cv/@ReachableCEO/Resume/CV/$COMPANY.md >> "$HumanIntermediateOutputFile"
+echo " " >> "$HumanIntermediateOutputFile"
+done
+unset IFS
+
+
+
 
 #Pull in my education info
 
@@ -58,7 +76,7 @@ echo "Generating PDF..."
 pandoc \
 $IntermediateOutputFile \
 --template eisvogel \
---metadata-file=../common/HumanOutput.yml \
+--metadata-file=./HumanOutput-NonCV.yml \
 --from markdown \
 --to=pdf \
 --output /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf

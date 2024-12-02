@@ -1,0 +1,12 @@
+title: "Charles N Wyble Resume"
+titlepage: true
+author: [Charles N Wyble]
+date: \today
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "Charles N Wyble"
+footer-right: "[Source code for this resume](https://git.knownelement.com/reachableceo/ReachableCEOResume) "
+footer-center: "Tenacity. Velocity. Focus"
+urlcolor: blue
+page-background: "D:/tsys/@ReachableCEO/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background5.pdf"

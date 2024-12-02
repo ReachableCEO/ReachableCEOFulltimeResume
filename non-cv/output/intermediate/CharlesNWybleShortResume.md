@@ -8,14 +8,12 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 ## Skills
 |Skill|Experience|Skil Details|
 |---|---|---|
-|**Linux**|22 years|RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering, AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC. |
-|**Unix**|5 years|HPUX/Solaris|
+|**Linux**|22 years|RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering, linux virtual server (LVS),NFS Samba  |
 |**Windows**|22 years|Server (2008  2016), Windows client automated deployment (7,8,10,11), Active Directory (multi forest, multi domain, cross domain trusts, sites and services, schema extension), Exchange,Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups and Office365 integration and migrarion|
-|**Free/Libre/Open Source Server software**|22 years|Apache, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl|
-|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations), security hardening, audits, breach response and mitigation, patch and vulnerability management. |
+|**Free/Libre/Open Source software**|22 years|Apache, Jboss, Tomcat, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl, VScode|
+|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations), security hardening, audits, breach response/mitigation/remediation, AppArmor, SeLinux, Centrify, OSSEC, Integrit, Tripwire, patch and vulnerability management |
 |**Networking**|22 years|Linux Virtual Server, HAProxy, Ubiquiti Unifi, Opnsense, Pfsense, HP, Cisco, Arista, Dell, DNS, DHCP, IPAM, PXE, IPS, IDS, GRE, IPSEC. Wireguard, OpenVPN, Nebula, Tailscale, RADIUS. Mostly layer2 data center/campus/access some WAN,firewall,layer3 |
-|**Monitoring**|22 years|Uptime kuma, librenms, zabbix, zenoss, nagios |
-|**Storage**|22 years|NFS, Samba, CIFS, Netapp, ZFS, True/Free NAS, 3par, MSA, Equallogic, EMC, generic iscsi|
+|**Monitoring/Alerting**|22 years|Uptime kuma, librenms, zabbix, zenoss, nagios |
 |**Virtualization**|22 years|VmWare, Parallels,HyperV, KVM, Xen|
 |**Containerization**|15 years|LXC, Docker,OpenVZ|
 |**Configuration management**|22 years|Slack, Cfengine, Puppet, FetchApply, Ansible, Hashicorp Packer/Vault|
@@ -74,5 +72,5 @@ Projects
 **GSI Commerce** |  HPUX/Windows/Linux System Administrator |   March 2002 -  February 2005
  
  
-**Reachable CEO Enterprises** |  Freelancer |  January 2001 - december 2024
+**Reachable CEO Enterprises** |  Freelancer |  January 2001 - December 2024
  

@@ -1,4 +1,6 @@
-#!/bin/bash
+############################################################
+# Machine readable CV for the various employment platforms
+############################################################
 
 EmploymentPlatforms=(
   "glassdoor"
@@ -11,63 +13,58 @@ EmploymentPlatforms=(
   "ziprecruiter"
 )
 
-#####################################
-# Human readable CV
-#####################################
+#Per platform specific notes....
+# Original idea here was to use the CSV file (| separated but whatever) and figure out (per platform) what was needed for formatting to be
+# auto parsed
+# ie
 
-HumanIntermediateOutputFile="./output/intermediate/human/CharlesNWybleCV.md"
+# function linkedin
+# COMPANY=$1
+# TITLE=$1
+# EMPLOYMENTDATE=$1
+# $COMPANY $EMPLYMENTDATE $TITLE
 
-rm $HumanIntermediateOutputFile
+# function glassdoor
+# COMPANY=$1
+# TITLE=$1
+# EMPLOYMENTDATE=$1
+# $COMPANY $TITLE $EMPLOYMENTDATE
 
-# Combine markdown files into single input file for pandoc
+# This may still be developed
 
-#Pull in my contact info
-cat "../common/Contact-Info.md" >> $HumanIntermediateOutputFile
-echo " " >> $HumanIntermediateOutputFile
+# glassdoor
+# Appears to not try to parse.
 
-echo "## Employment History" >> $HumanIntermediateOutputFile
+# indeed
+# Appears to not try to parse.
 
-#And here we do some magic...
-#Pull in my :
+#  ziprecruiter
+# ZipRecruiter (position parsing) (fixed manually, only one position wasn't properly captured)
 
-# employer
-# title
-# start/end dates of employment 
-# long form position summary data from each position
+#  linkedin
+# TBD, not sure how/if/when it parses the uploaded document...
 
-IFS=$'\n\t'
-for position in \
-$(cat ../common/WorkHistory.csv); do
+#  upwork
+# Doesn't seem to parse the resume at all
 
-COMPANY="$(echo $position|awk -F ',' '{print $1}')"
-TITLE="$(echo $position|awk -F ',' '{print $2}')"
-DATEOFEMPLOY="$(echo $position|awk -F ',' '{print $3}')"
+#  roberthalf
+# Robert Half (not sure if it parses resume or not)
 
-echo " " >> "$HumanIntermediateOutputFile"
-echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $HumanIntermediateOutputFile
-echo " " >> "$HumanIntermediateOutputFile"
+#  dice
+# DIce (skills)
 
-cat ./$COMPANY.md >> "$HumanIntermediateOutputFile"
-echo " " >> "$HumanIntermediateOutputFile"
-done
-unset IFS
+#  teal
+# tbd
 
-#Pull in my education info
-cat "../common/Education.md" >> $HumanIntermediateOutputFile
+#  guru
+# tbd
 
-# Run pandoc/etc to generate HTML/PDF/DOC into output dir
+# careerbuilder
+# tbd
 
-#First html/pdf/doc, for resume.reachableceo.com use
+# oracle talent something something (most big companies appear to use this)
+# tbd (once i apply for a job somewhere that uses that platform, i will update)
 
-pandoc \
-$HumanIntermediateOutputFile \
---template eisvogel \
---metadata-file=../common/HumanOutput.yml \
---from markdown \
---to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/cv/CharlesNWybleCV.pdf
-
-exit
 
 ############################################################
 # Machine readable CV for the various employment platforms

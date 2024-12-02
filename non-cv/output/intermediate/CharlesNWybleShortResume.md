@@ -48,7 +48,7 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 **GSI Commerce** |  HPUX/Windows/Linux System Administrator |   March 2002 -  February 2005
  
  
-**Reachable CEO Enterprises** |  Freelancer |  January 2001 - December 2024
+**ReachableCEO Enterprises** |  Freelancer |  January 2001 - December 2024
  
 \pagebreak
 ## Skills

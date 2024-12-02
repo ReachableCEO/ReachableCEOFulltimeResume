@@ -99,6 +99,8 @@ echo " " >> "$IntermediateOutputFile"
 done
 unset IFS
 
+echo "\pagebreak" >> $IntermediateOutputFile
+
 }
 
 generateFinalOutputFilePdf()

@@ -7,6 +7,6 @@ header-center: "\\leftmark"
 header-right: "Page \\thepage"
 footer-left: "Charles N Wyble"
 footer-center: "Tenacity. Velocity. Focus"
-footer-right: "[Source code for this file](https://git.knownelement.com/reachableceo/ReachableCEOResume) "
+footer-right: "[Source code for this file](https://github.com/ReachableCEO/ReachableCEOResume/blob/main/ancillary-support-files/CharlesNWybleCandidateInfo.md)"
 urlcolor: blue
 page-background: "D:/tsys/@ReachableCEO/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background1.pdf"

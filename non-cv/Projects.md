@@ -2,13 +2,8 @@
 Projects
 --------
 
-- Fedora to Debian field switch
-	- #todo Flesh this out with details of switching several thousand systems from Fedora to Debian
-- Datacenter buildout in 86 days for 8 billion dollars 
-	- #todo Flesh this out with how I managed this project  
-- Global AD build out/PCI compliance
-	- #todo Flesh this out with how I managed this project 
-- ECH massive vertical scale server build out 
-	- #todo Flesh this out with how I did cool things and stuff
-- other cool project (go through CV to find) #todo
-	- #todo Find and flesh out
+- Project managed a successful brand new data center build from bare dirt to serving content in 86 days. Oversaw 8 billion dollars of capital deployment. 
+- Developed and implemented a process to switch thousands of desktops providing digital signage functionality from Fedora to Debian in a completely automated fashion using a custom initrd.
+- Developed and implemented an internal private cloud orchestration and provisioning system for a hardware development engineering team that handled the entire provisioning lifecycle for physical and virtual systems. 
+- Developed and implemented an automated order status and payment handling interactive voice response application using Angel.ccm with a backend web service returning Voice XML. This allows call center personnel to focus on revenue generating opportunities instead of administrative matters. 
+- Provided technician support to a team of electrical engineers building the power system for the radar of FrakenSAM in Ukraine. Handled high / low voltage wiring and plumbing and documentation of those systems. 

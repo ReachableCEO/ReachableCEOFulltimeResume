@@ -7,7 +7,7 @@ Networking|22 years|Linux Virtual Server, HAProxy, Ubiquiti Unifi, Opnsense, Pfs
 Monitoring|22 years|Uptime kuma, librenms, zabbix, zenoss, nagios 
 Storage|22 years|NFS, Samba, CIFS, Netapp, ZFS, True/Free NAS, 3par, MSA, Equallogic, EMC, generic iscsi
 Virtualization|22 years|VmWare, Parallels,HyperV, KVM, Xen
-Containerization|15 years|LXC, Docker,Parallels
+Containerization|15 years|LXC, Docker,OpenVZ
 Configuration management|22 years|Slack, Cfengine, Puppet, FetchApply, Ansible, Hashicorp Packer/Vault
 Embedded development|5 years|Raspberry pi, arduino, seeduino, Lego Mindstorms
 Programming/Automation|22 years|Bash , J2ME, PHP, Ruby, PowerShell, TCL/TK, Java

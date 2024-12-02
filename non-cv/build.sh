@@ -121,7 +121,7 @@ $IntermediateOutputFile \
 
 cleanup
 createMdContact
-createMdSkills
 createMdProjects
 createMdWorkHistory
+createMdSkills
 generateFinalOutputFilePdf

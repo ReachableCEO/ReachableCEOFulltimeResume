@@ -1,16 +1,41 @@
 #!/bin/bash
 
-rm ./output/intermediate/CharlesNWybleShortResume.md
+
+##########################################################
+#Global variables
+##########################################################
 
 IntermediateOutputFile="./output/intermediate/CharlesNWybleShortResume.md"
+FinalOutputFilePDF="/d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf"
+#FinalOutputFileHTML="/d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf"
+#FinalOutputFileDOC="/d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf"
+
+cleanup()
+
+{
+
+rm ./output/intermediate/CharlesNWybleShortResume.md
+
+}
+
+
 
 # Combine markdown files into single input file for pandoc
 
 echo "Combining markdown files..."
 
+createMdContact()
+
+{
 #Pull in my contact info
 cat "../common/Contact-Info.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
+
+}
+
+createMdSkills()
+
+{
 
 #Pull in my skills
 
@@ -23,7 +48,7 @@ echo "|---|---|---|" >> $IntermediateOutputFile
 #Table rows
 IFS=$'\n\t'
 for skill in \
-$(cat ../common/Skills.csv); do
+$(cat ./Skills.csv); do
 SKILL_NAME="$(echo $skill|awk -F '|' '{print $1}')"
 SKILL_YEARS="$(echo $skill|awk -F '|' '{print $2}')"
 SKILL_DETAIL="$(echo $skill|awk -F '|' '{print $3}')"
@@ -33,11 +58,23 @@ unset IFS
 
 echo "\pagebreak" >> $IntermediateOutputFile
 
+}
+
+createMdProjects()
+
+{
+
 #Pull in my projects 
 cat "./Projects.md" >> $IntermediateOutputFile
 echo " " >> $IntermediateOutputFile
 
 echo "\pagebreak" >> $IntermediateOutputFile
+
+}
+
+createMdWorkHistory()
+
+{
 
 #Pull in my work history
 
@@ -52,22 +89,17 @@ COMPANY="$(echo $position|awk -F ',' '{print $1}')"
 TITLE="$(echo $position|awk -F ',' '{print $2}')"
 DATEOFEMPLOY="$(echo $position|awk -F ',' '{print $3}')"
 
-echo " " >> "$HumanIntermediateOutputFile"
-echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $HumanIntermediateOutputFile
-echo " " >> "$HumanIntermediateOutputFile"
-
-cat ../cv/@ReachableCEO/Resume/CV/$COMPANY.md >> "$HumanIntermediateOutputFile"
-echo " " >> "$HumanIntermediateOutputFile"
+echo " " >> "$IntermediateOutputFile"
+echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $IntermediateOutputFile
+echo " " >> "$IntermediateOutputFile"
 done
 unset IFS
 
+}
 
+generateFinalOutputFilePdf()
 
-
-#Pull in my education info
-
-echo " " >> $IntermediateOutputFile
-cat "../common/Education.md" >> $IntermediateOutputFile
+{
 
 # Run pandoc to generate PDF into output dir
 
@@ -79,4 +111,13 @@ $IntermediateOutputFile \
 --metadata-file=./HumanOutput-NonCV.yml \
 --from markdown \
 --to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf
+--output $FinalOutputFilePDF
+
+}
+
+cleanup
+createMdContact
+createMdSkills
+createMdProjects
+createMdWorkHistory
+generateFinalOutputFilePdf

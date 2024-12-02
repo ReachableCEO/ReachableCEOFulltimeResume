@@ -15,23 +15,38 @@ I WILL NOT share my ID over email or any other electronic written communication.
 
 Here are answers to common questions you may have:
 
-| Question                              | Answer                                                                   |
-|---------------------------------------|--------------------------------------------------------------------------|
-| E-mail address                        | reachableceo@reachableceo.com                                            |
-| Phone number                          | 818-280-7059                                                             |
-| Work authorization                    | US Citizen                                                               |
-| Are you currently employed?           | No                                                                       |
-| Current location                      | Austin Texas                                                             |
-| Open to relocation?                   | Yes                                                                      |
-| Willing to relocate at own expense?   | No                                                                       |
-| Availability to interview/start       | Immediate for remote/local, 1 to two weeks for relocation                |
-| Open to in-office/hybrid/remote       | Yes                                                                      |
-| Any trips planned in next six months? | No                                                                       |
-| Highest Education                     | High School                                                              |
-| Graduated Year                        | 2002                                                                     |
-| Name of school                        | Osborne Christain School                                                 |
-| Location of school                    | Los Angeles CA                                                           |
-| Linkedin                              | [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337/) |
-| Last project                          | Contract, ended October 2024                                             |
-| DOB                                   | 09/14                                                                    |
-| Pay                                   | Open to discuss, send RTR with best hourly/annual rate                   |
+| Question                              | Answer                                                                                 |
+|---------------------------------------|----------------------------------------------------------------------------------------|
+| Full name                             | Charles Wyble                                                                          |
+| E-mail address                        | reachableceo@reachableceo.com                                                          |
+| Phone number                          | 818-280-7059                                                                           |
+| Work authorization                    | US Citizen                                                                             |
+| Are you employed presently?           | No                                                                                     |
+| Current location                      | Austin, Texas                                                                          |
+| Availability to interview             | Immediate                                                                              |
+| Availability to start                 | Immediate for remote/local, two weeks for relocation                                   |
+| Open to in-office/hybrid/remote       | Yes                                                                                    |
+| Any trips planned in next six months? | No                                                                                     |
+| Highest Education                     | High School                                                                            |
+| Graduated Year                        | 2002                                                                                   |
+| Name of school                        | Osborne Christian School                                                               |
+| Location of school                    | Los Angeles CA                                                                         |
+| Linkedin                              | [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337/)               |
+| Last project                          | Contract, ended October 2024                                                           |
+| DOB                                   | 09/14                                                                                  |
+| Pay expectation                       | Open to discuss, send RTR with best hourly/annual rate as appropriate for the position |
+| Total IT/career experience            | 22 years                                                                               |
+
+Re relocation:
+
+| Question                             | Answer |
+|--------------------------------------|--------|
+| Open to relocation?                  | Yes    |
+| Willing to re-locate at own expense? | No     |
+
+Please be aware that:
+
+- net amount of the re-location benefit **MUST be $4,000 USD** or more to fully compensate me for the time/effort to relocate
+- the full relocation benefit **must be provided 1 week or more prior to the confirmed start date**
+- I will **only re-locate at the employer expense**
+- I will need two weeks of time to re-locate

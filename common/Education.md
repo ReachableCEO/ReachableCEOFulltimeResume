@@ -1,4 +1,0 @@
-
-## Education
-
-High School Graduate

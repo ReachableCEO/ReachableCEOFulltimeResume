@@ -1,21 +1,32 @@
+# Charles N Wyble
+
+## Introduction
+
 Hello,
 
-Thank you for writing me in regards to this opportunity.
+I apologize for the form letter response.
 
-I apologize for the form letter response. I receive a high volume of recruiter emails every day and I've found this letter to be the most efficient way to
- handle the high volume of emails and reduce back and forth emails/calls.
+I receive a high volume of recruiter emails every day and I've found this letter to be the most efficient way to
+handle the high volume of emails and reduce back and forth emails/texts/calls.
 
-Re: share my ID:
+If you have any questions/comments/concerns not covered by this document, please let me know via e-mail and I'm happy to address them!
 
-I WILL NOT share my (full or redacted) photo ID over email or any other electronic written communication. If that is "required" then I have no interest in moving forward with this opportunity.
+If you ask me something answered in this document, I will not respond and will not move forward with the opportunity, so please read it in detail!
+
+## Re: share my ID over email
+
+I WILL NOT share my (full or redacted) photo ID over email or any other electronic written  
+communication. If that is "required" then I have no interest in moving forward with this opportunity.
 
 I am happy to get on a teams/zoom/google meet etc call and show my ID.
 
-Re: professional references:
+## Re: professional references
 
-I am happy to provide professional references once an interview is scheduled with the end client/customer/hiring manager/team. I will NOT provide references up front. If that is "required" then I have no interest in moving forward with this opportunity.
+I am happy to provide professional references once an interview with the end client/customer/hiring manager/team has been scheduled. I will NOT provide references up front. If that is "required" then I have no interest in moving forward with this opportunity.
 
-Re relocation (if the role is not based in Austin TX or Raleigh NC I will need to re-locate):
+## Re: relocation
+
+if the role is not based in **Austin TX** or **Raleigh NC** I will need to re-locate
 
 | Question                                  | Answer |
 |-------------------------------------------|--------|
@@ -28,36 +39,62 @@ Please be aware that:
 - I will **only re-locate at the employer expense**.
 - I will need **two weeks of time** to re-locate.
 - The net amount of the re-location benefit **MUST be at least $5,000 USD** to fully compensate me for the time/effort to re-locate.
-- The full relocation benefit **must be provided 3 weeks or more prior to the confirmed start date**.
-- I will **NOT accept** a reimbursement based re-location package.
+- The full re-location benefit **must be provided prior to the confirmed start date**.
+- I **will NOT** accept a reimbursement based re-location package.
+- I am happy to come onsite (at client expense (paid up front)) for training/orientation etc.
 
+\pagebreak
 
-If all of the above is acceptable, please find my latest resume in PDF format at the following URLs:
+## Rate Schedule (compensation expectations)
 
-- [Short resume](https://resume.reachableceo.com/non-cv/CharlesNWybleShortResume.pdf)
-- [Long resume](https://resume.reachableceo.com/cv/CharlesNWybleCV.pdf)
+I have **NO FLEXIBILITY** and am **NOT OPEN TO NEGOTIATION** on my rate. If this opportunity isn't a match
+to the below rate schedule, please keep me in mind for opportunities that are.
 
-Feel free to use either/both for my submission to the job as you feel appropriate.
+For **fully remote** roles;
 
-I will not provide my resume in Microsoft Word format. If that is "required" then i have no interest in moving forward with this opportunity.
+I am not interested in anything less than **\$65.00 per hour(w2)/\$85.00 per hour (1099/corp to corp)/ $130,000.00 annually (w2)**.
 
-I am happy to make edits to my resume to better fit the position as needed. Just let me know via e-mail.
+For on-site roles:
 
-Here are my complete details for submission to the role:
+I am not interested in anything less than **\$75.00 per hour(w2)/\$95.00 per hour (1099/corp to corp)/ $150,000.00 annually (w2)**.
+
+I am open to:
+
+- w2
+- corp to corp (I have my own LLC)
+- 1099  
+
+If you have a rate for any/all those compensation types, send them all.
+
+If it's a different rate with/without benefits, send both.
+
+\pagebreak
+
+## Details needed for submission
+
+[My resume](https://resume.reachableceo.com/CharlesNWybleResume.pdf)
+
+I am happy to discuss and make edits to the resume content specific to the opportunity if you feel
+they are needed.
+
+Here are my complete candidate details for submission to the role.
 
 | Question                              | Answer                                                                   |
 |---------------------------------------|--------------------------------------------------------------------------|
 | Full name                             | Charles Wyble                                                            |
-| E-mail address                        | reachableceo@reachableceo.com                                            |
+| E-mail address                        | <reachableceo@reachableceo.com>                                          |
 | Phone number                          | 818-280-7059                                                             |
+| Preferred form of contact             | E-mail will get the fastest response                                     |
 | Work authorization                    | US Citizen                                                               |
 | Are you employed presently?           | No                                                                       |
 | Current location                      | Austin, Texas                                                            |
+| Current timezone                      | CST                                                                      |
+| Timezones I can work in               | PST/CST/EST                                                              |
 | Availability to interview             | Immediate                                                                |
 | Availability to start                 | Immediate for remote/local, two weeks for relocation                     |
 | Open to in-office/hybrid/remote       | Yes                                                                      |
 | Any trips planned in next six months? | No                                                                       |
-| Highest Education                     | High School                                                              |
+| Highest Education                     | High School (no college/university)                                      |
 | Graduated Year                        | 2002                                                                     |
 | Name of school                        | Osborne Christian School                                                 |
 | Location of school                    | Los Angeles CA                                                           |
@@ -67,10 +104,4 @@ Here are my complete details for submission to the role:
 | DOB                                   | 09/14                                                                    |
 | Total IT/career experience            | 22 years                                                                 |
 
-Re compensation/pay:
-
-Generally I will not have interest in anything less than 65.00 per hour/130k annually. I have some flexibility for fully remote roles that I find interesting.
-
-I am open to w2, corp to corp (I have my own LLC), 1099.  If you have a rate for any/all of those, send them all. If it's a different rate with/without benefits, send both.
-
-If all of the above is in alignment with this opportunity, please feel free to send me an RTR with the best rate you can offer.
+If the above is in alignment with this opportunity, please feel free to send me an RTR with the best rate you can offer.

@@ -66,7 +66,9 @@ createMdProjects()
 
 #Pull in my projects 
 
-echo "## Careet Highlights" >> "$IntermediateOutputFile"
+## <p align="center">️ My development environment </p>
+
+echo "## Highlights from my 22 year of experience" >> "$IntermediateOutputFile"
 
 echo 
 cat "./Projects.md" >> $IntermediateOutputFile
@@ -84,6 +86,9 @@ createMdWorkHistory()
 
 echo " " >> $IntermediateOutputFile
 echo "## Employment History" >> $IntermediateOutputFile
+echo " " >> $IntermediateOutputFile
+echo "Comprehensive employment history available on my [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337)" >> $IntermediateOutputFile
+echo " " >> $IntermediateOutputFile
 
 IFS=$'\n\t'
 for position in \
@@ -98,6 +103,7 @@ echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $IntermediateOutputFile
 echo " " >> "$IntermediateOutputFile"
 done
 unset IFS
+
 
 echo "\pagebreak" >> $IntermediateOutputFile
 

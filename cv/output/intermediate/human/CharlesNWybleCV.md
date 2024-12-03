@@ -28,7 +28,7 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 - Focused on fostering a culture of automation and skill development within the SRE team, emphasizing code review, infrastructure as code, versioning, testing, and eﬀective ticket management.
 - Contributed to Linux server administration both internally and externally, aiding colleagues with scripting/automation and assisting in the migration from AWS to Azure with zero customer-facing system impact. Additionally, provided day-to-day support for AWS and Azure activities and troubleshooting. 
  
-**3M** |  Senior Site Reliability Engineer  |  March 2020  November 2022
+**3M** |  Senior Site Reliability Engineer  |  March 2020 - November 2022
  
 
 - Supported Vendavo on RedHat Linux, managed releases, and provided day-to-day developer support.

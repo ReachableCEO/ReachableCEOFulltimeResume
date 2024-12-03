@@ -5,7 +5,7 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 
 [ [Github Profile](https://github.com/reachableceo) ] .  [ [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337) ] . [ reachableceo@reachableceo.com ] . [ 818 280 7059 ] . [ Austin TX / Raleigh NC / Remote ]
  
-## Projects
+## Highlights from my 22 year of experience
 - Developed and implemented a process to switch thousands of desktops providing digital signage functionality from Fedora to Debian in a completely automated fashion using a custom initrd.
 - Developed and implemented an internal private cloud orchestration and provisioning system for a hardware development engineering team that handled the entire provisioning lifecycle for physical and virtual systems.
 - Developed and implemented standardized language and procedures and incident investigation automation for a large technical support organization with high turnover.
@@ -18,6 +18,9 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
  
 ## Employment History
  
+Comprehensive employment history available on my [Linkedin Profile](https://www.linkedin.com/in/charles-wyble-412007337)
+ 
+ 
 **CDK Global** |  Senior System Engineer |  July 2024 - October 2024
  
  
@@ -27,7 +30,7 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 **SHEIN.com** |  Staff Site Reliability Engineer |  December 2022 - August 2023
  
  
-**3M** |  Senior Site Reliability Engineer  |  March 2020  November 2022
+**3M** |  Senior Site Reliability Engineer  |  March 2020 - November 2022
  
  
 **TippingPoint** |  Staff System/Network Architect |  March 2012 - June 2019
@@ -52,21 +55,24 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
  
 \pagebreak
 ## Skills
-|Skill|Experience|Skil Details|
+|Skill|Experience|Skill Details|
 |---|---|---|
-|**Linux**|22 years|RHEL/Debian/Ubuntu, kickstart, PXE, LDAP, SSSD, RPM/Deb package creation, quotas, extended permissions, clustering, linux virtual server (LVS),NFS Samba  |
-|**Windows**|22 years|Server (2008  2016), Windows client automated deployment (7,8,10,11), Active Directory (multi forest, multi domain, cross domain trusts, sites and services, schema extension), Exchange,Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups and Office365 integration and migrarion|
-|**Free/Libre/Open Source software**|22 years|Apache, Jboss, Tomcat, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl, VScode|
-|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations), security hardening, audits, breach response/mitigation/remediation, AppArmor, SeLinux, Centrify, OSSEC, Integrit, Tripwire, patch and vulnerability management |
+|**Linux**|22 years|RHEL,Debian,Ubuntu,kickstart,PXE,  LDAP,SSSD,RPM/Deb package creation,  quotas,extended permissions, clustering, NFS, Samba|
+|**Unix**|5 years|HPUX/Solaris|
+|**Windows**|22 years|Server (2008  2016), Windows client automated deployment (7,8,10,11), Active Directory, Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups, LDAP|
+|**Free/Libre/Open Source Server software**|22 years|Apache, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl|
+|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations), OpenVAS<, Lynis, security hardening, audits, breach response and mitigation, patch and vulnerability management. AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC |
 |**Networking**|22 years|Linux Virtual Server, HAProxy, Ubiquiti Unifi, Opnsense, Pfsense, HP, Cisco, Arista, Dell, DNS, DHCP, IPAM, PXE, IPS, IDS, GRE, IPSEC. Wireguard, OpenVPN, Nebula, Tailscale, RADIUS. Mostly layer2 data center/campus/access some WAN,firewall,layer3 |
-|**Monitoring/Alerting**|22 years|Uptime kuma, librenms, zabbix, zenoss, nagios |
+|**Monitoring**|22 years|Uptime Kuma, Librenms, Zabbix, Zenoss, Nagios, ELK (Elasticsearch, Logstash, Kibana)|
 |**Virtualization**|22 years|VmWare, Parallels,HyperV, KVM, Xen|
+|**Cloud**|5 years|AWS, Azure, GCP, Kubernetes|
 |**Containerization**|15 years|LXC, Docker,OpenVZ|
-|**Configuration management**|22 years|Slack, Cfengine, Puppet, FetchApply, Ansible, Hashicorp Packer/Vault|
-|**Embedded development**|5 years|Raspberry pi, arduino, seeduino, Lego Mindstorms|
-|**Programming/Automation**|22 years|Bash , J2ME, PHP, Ruby, PowerShell, TCL/TK, Java|
+|**Configuration management/InfrastructureAsCode(IAC)**|22 years|FetchApply, Terraform/OpenTOfu, Ansible, Hashicorp Packer/Vault|
 |**Ticket / incident / project management**| 22 years| Jira, ServiceNow,Redmine,RT|
-|**Git**|15 years|branching, merging, multiple teams, external vendors, submodules |
-|**SRE**|4 years| Grafana, Promethus, Signoz, Wazuh|
+|**Git**|15 years|Branching, merging, multiple teams, external vendors, submodules |
+|**SRE**|4 years| Grafana, Prometheus, Signoz, Wazuh|
 |**LLM**|2 years|OpenWebUI, Apple Silicon, QA/validation, RAG, data cleaning/prep|
+|**Programming**|5 years|J2ME,PHP,Ruby,TCL/TK,Java,C,C++|
+|**Automation**|22 years|Bash,PowerShell,Perl|
+|**Embedded development**|5 years|Raspberry pi, arduino, seeduino, Lego Mindstorms|
 \pagebreak

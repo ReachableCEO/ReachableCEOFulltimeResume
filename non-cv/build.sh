@@ -66,7 +66,7 @@ createMdProjects()
 
 #Pull in my projects 
 
-echo "## Projects" >> "$IntermediateOutputFile"
+echo "## Careet Highlights" >> "$IntermediateOutputFile"
 
 echo 
 cat "./Projects.md" >> $IntermediateOutputFile

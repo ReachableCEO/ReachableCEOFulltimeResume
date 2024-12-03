@@ -57,22 +57,23 @@ Comprehensive employment history available on my [Linkedin Profile](https://www.
 ## Skills
 |Skill|Experience|Skill Details|
 |---|---|---|
-|**Linux**|22 years|RHEL,Debian,Ubuntu,kickstart,PXE,  LDAP,SSSD,RPM/Deb package creation,  quotas,extended permissions, clustering, NFS, Samba|
+|**Linux**|22 years|RHEL,Debian,Ubuntu,kickstart,PXE,  LDAP,SSSD,RPM/Deb package creation,  quotas,extended permissions, clustering,NFS,Samba|
 |**Unix**|5 years|HPUX/Solaris|
-|**Windows**|22 years|Server (2008  2016), Windows client automated deployment (7,8,10,11), Active Directory, Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups, LDAP|
-|**Free/Libre/Open Source Server software**|22 years|Apache, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl|
-|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations), OpenVAS<, Lynis, security hardening, audits, breach response and mitigation, patch and vulnerability management. AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC |
+|**Windows**|22 years|Server (2008  2016),Windows client automated deployment (7,8,10,11),Active Directory,Group Policy,WSUS,Certificate Services,AD DNS,AD DHCP,complex multiple forest and domain setups |
+|**Free/Libre/Open Source software**|22 years|Apache,Postfix,Qmail,Dovecot,Courier IMAP,Nginx,Matamo,Discourse,Wordpress,  Mautic,Dolibarr,Revive Ad Server,Firefly,Cloudron,Coolify,Gitea,  HomeAssistant,  Jenkins,Rundeck,N8N,  LetsEncrypt,ACME,cfssl|
+|**Databases**|22 years| MySQL,PostgreSQL,  Dbeaver,PHPMyAdmin,PostGIS|
+|**Cyber Security**|22 years|PCI Compliance (tier 1 implementations),OpenVAS<, Lynis, security hardening, audits, breach response and mitigation, patch and vulnerability management. AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC |
 |**Networking**|22 years|Linux Virtual Server, HAProxy, Ubiquiti Unifi, Opnsense, Pfsense, HP, Cisco, Arista, Dell, DNS, DHCP, IPAM, PXE, IPS, IDS, GRE, IPSEC. Wireguard, OpenVPN, Nebula, Tailscale, RADIUS. Mostly layer2 data center/campus/access some WAN,firewall,layer3 |
 |**Monitoring**|22 years|Uptime Kuma, Librenms, Zabbix, Zenoss, Nagios, ELK (Elasticsearch, Logstash, Kibana)|
 |**Virtualization**|22 years|VmWare, Parallels,HyperV, KVM, Xen|
 |**Cloud**|5 years|AWS, Azure, GCP, Kubernetes|
 |**Containerization**|15 years|LXC, Docker,OpenVZ|
-|**Configuration management/InfrastructureAsCode(IAC)**|22 years|FetchApply, Terraform/OpenTOfu, Ansible, Hashicorp Packer/Vault|
+|**Configuration management/InfrastructureAsCode(IAC)**|22 years|FetchApply, Terraform/OpenTOfU,Ansible, AWX,Hashicorp Packer/Vault|
 |**Ticket / incident / project management**| 22 years| Jira, ServiceNow,Redmine,RT|
 |**Git**|15 years|Branching, merging, multiple teams, external vendors, submodules |
 |**SRE**|4 years| Grafana, Prometheus, Signoz, Wazuh|
 |**LLM**|2 years|OpenWebUI, Apple Silicon, QA/validation, RAG, data cleaning/prep|
 |**Programming**|5 years|J2ME,PHP,Ruby,TCL/TK,Java,C,C++|
-|**Automation**|22 years|Bash,PowerShell,Perl|
+|**Automation**|22 years|Bash,YAML,TOML,PowerShell,Perl|
 |**Embedded development**|5 years|Raspberry pi, arduino, seeduino, Lego Mindstorms|
 \pagebreak

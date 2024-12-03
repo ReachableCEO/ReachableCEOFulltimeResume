@@ -1,7 +1,8 @@
 Linux|22 years|RHEL,Debian,Ubuntu,kickstart,PXE,  LDAP,SSSD,RPM/Deb package creation,  quotas,extended permissions, clustering, NFS, Samba
 Unix|5 years|HPUX/Solaris
 Windows|22 years|Server (2008  2016), Windows client automated deployment (7,8,10,11), Active Directory, Group Policy, WSUS, Certificate Services, AD DNS, AD DHCP, complex multiple forest and domain setups, LDAP
-Free/Libre/Open Source Server software|22 years|Apache, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, Rundeck, N8N, Mysql,Postgresql,  LetsEncrypt, ACME, cfssl
+Free/Libre/Open Source software|22 years|Apache, Postfix, Qmail, Dovecot, Courier, Nginx, Matamo, Discourse, Wordpress, Mautic,Dolibarr, Revive, Firefly, Cloudron, Coolify, Gitea, Gitlab, GitHub, Git, Jenkins, HomeAssistant,Rundeck,N8N,LetsEncrypt, ACME, cfssl
+Databases|22 years| MySQL,PostgreSQL, Dbeaver,PHPMyAdmin,PostGIS
 Cyber Security|22 years|PCI Compliance (tier 1 implementations), OpenVAS<, Lynis, security hardening, audits, breach response and mitigation, patch and vulnerability management. AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC 
 Networking|22 years|Linux Virtual Server, HAProxy, Ubiquiti Unifi, Opnsense, Pfsense, HP, Cisco, Arista, Dell, DNS, DHCP, IPAM, PXE, IPS, IDS, GRE, IPSEC. Wireguard, OpenVPN, Nebula, Tailscale, RADIUS. Mostly layer2 data center/campus/access some WAN,firewall,layer3 
 Monitoring|22 years|Uptime Kuma, Librenms, Zabbix, Zenoss, Nagios, ELK (Elasticsearch, Logstash, Kibana)

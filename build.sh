@@ -35,8 +35,7 @@ COMPANY="$(echo $position|awk -F ',' '{print $1}')"
 TITLE="$(echo $position|awk -F ',' '{print $2}')"
 DATEOFEMPLOY="$(echo $position|awk -F ',' '{print $3}')"
 
-echo " " >> "$MarkdownOutputFile"
-echo "**$COMPANY** | $TITLE | $DATEOFEMPLOY" >> $MarkdownOutputFile
+echo "**$COMPANY | $TITLE | $DATEOFEMPLOY**" >> $MarkdownOutputFile
 echo " " >> "$MarkdownOutputFile"
 
 cat ./$COMPANY.md >> "$MarkdownOutputFile"

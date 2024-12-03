@@ -1,4 +1,3 @@
-
 - Conducted code and design reviews for internal/external team projects and actively participated in broad enterprise collaboration, focusing on large-scale ﬂeet management.
 - Managed user account administration, manual/semi-automated server provisioning, trouble tickets, security vulnerability remediation, and system/network auditing.
 - Led various projects, including migrating ﬂeet systems from Centos 6 to Centos 7, implementing LXC/ LXD container versions for increased system utilization, and creating an on-premise deployment system (GUMPS) for automated provisioning.

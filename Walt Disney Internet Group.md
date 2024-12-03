@@ -5,3 +5,5 @@
 - Automated routine system administration tasks through the creation of batch and VBScript programs for Windows administration.
 - Led an Active Directory project for WDIG, designing and implementing a nationwide, highly available system across 3 data centers.
 - Managed the migration from Windows NT to Windows 2003 Active Directory domain controllers, including experience with Windows 2008, Centrify, and Samba/Winbind/LDAP/Kerberos.
+
+\pagebreak

@@ -1,4 +1,3 @@
-
 - Linux systems engineer in a 24x7 transaction processing/ecommerce/flnancial services environment, collaborating with network administration and infrastructure design teams.
  - Ensured continuous uptime for high-impact environments, including a 1TB MySQL database, 300TB Oracle database, 1.5TB Oracle Data Warehouse, and a 4,000-store LAMP-based ecommerce system (MerchantAmerica.com).
  - Successfully deployed an enterprise-wide Linux backup system, featuring encrypted backups stored on a central server with ISCSI attached network storage, utilizing GNUPG and tar over SSH. Regular backups and restores were tested weekly.

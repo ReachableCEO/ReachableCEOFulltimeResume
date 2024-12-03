@@ -6,3 +6,6 @@
 - Provided root cause analysis , mitigation and remediation of security breaches by advanced persistent threat actors at high value targets.
 - Project managed a successful brand new data center build from bare dirt to serving content in 86 days. Oversaw 8 billion dollars of capital deployment.
 - Led and consulted tier 1 payment compliance industry (PCI) implementations for some of the worlds largest brands (including at a payment processor).
+- Rolled out centralized Active Directory authentication, deployed Dell OpenManage, and upgraded network equipment.
+- Deployed password vault, Active Directory PKI, and implemented a ground-up network redesign.
+- Designed VmWare NSX network.

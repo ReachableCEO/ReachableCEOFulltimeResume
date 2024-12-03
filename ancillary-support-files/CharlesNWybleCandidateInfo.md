@@ -47,16 +47,15 @@ Please be aware that:
 
 ## Rate Schedule (compensation expectations)
 
-I have **NO FLEXIBILITY** and am **NOT OPEN TO NEGOTIATION** on my rate. If this opportunity isn't a match
-to the below rate schedule, please keep me in mind for opportunities that are.
+I have **NO FLEXIBILITY** and am **NOT OPEN TO NEGOTIATION** on my rate.
 
 For **fully remote** roles;
 
-I am not interested in anything less than **\$65.00 per hour(w2)/\$85.00 per hour (1099/corp to corp)/ $130,000.00 annually (w2)**.
+I am open to (at minimum): **\$65.00 per hour(w2)/\$85.00 per hour (1099/corp to corp)/ $130,000.00 annually (w2)**.
 
 For on-site roles:
 
-I am not interested in anything less than **\$75.00 per hour(w2)/\$95.00 per hour (1099/corp to corp)/ $150,000.00 annually (w2)**.
+I am open to (at minimum): **\$75.00 per hour(w2)/\$95.00 per hour (1099/corp to corp)/ $150,000.00 annually (w2)**.
 
 I am open to:
 
@@ -64,18 +63,25 @@ I am open to:
 - corp to corp (I have my own LLC)
 - 1099  
 
-If you have a rate for any/all those compensation types, send them all.
+If you have a rate for any of the compensation options above, send them all. I will pick which one works best for my situation
+and the opportunity.
 
 If it's a different rate with/without benefits, send both.
+
+If the above is in alignment with this opportunity, please feel free to send me an RTR with the best rate you can offer.
 
 \pagebreak
 
 ## Details needed for submission
 
-[My resume](https://resume.reachableceo.com/CharlesNWybleResume.pdf)
+### My resume
+
+[Download Charles resume(pdf)](https://resume.reachableceo.com/CharlesNWybleResume.pdf)
 
 I am happy to discuss and make edits to the resume content specific to the opportunity if you feel
 they are needed.
+
+### Candidate details  
 
 Here are my complete candidate details for submission to the role.
 
@@ -103,5 +109,3 @@ Here are my complete candidate details for submission to the role.
 | Last project                          | Contract, ended October 2024                                             |
 | DOB                                   | 09/14                                                                    |
 | Total IT/career experience            | 22 years                                                                 |
-
-If the above is in alignment with this opportunity, please feel free to send me an RTR with the best rate you can offer.

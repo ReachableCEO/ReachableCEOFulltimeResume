@@ -8,4 +8,4 @@ CharlesNWybleCandidateInfo.md \
 --metadata-file=./CandidateInfo.yml \
 --from markdown \
 --to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/candidate-info/CharlesNWybleCandidateInfo.pdf
+--output /d/tsys/@ReachableCEO/resume.reachableceo.com/CharlesNWybleCandidateInfo.pdf

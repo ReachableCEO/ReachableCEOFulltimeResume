@@ -1,12 +1,12 @@
 #!/bin/bash
 
-MarkdownOutputFile="./output/CharlesNWybleResume.md"
+MarkdownOutputFile="./output/Client-Submit-CharlesNWybleResume.md"
 rm $MarkdownOutputFile
 
-# Combine markdown files into single input file for pandoc
+# Combine markdown files into single intermediate markdown file
 
 #Pull in my contact info
-cat "./Contact-Info.md" >> $MarkdownOutputFile
+cat "./Contact-Info-Client-Submit.md" >> $MarkdownOutputFile
 echo " " >> $MarkdownOutputFile
 
 echo "## Highlights from my 22 year IT career" >> $MarkdownOutputFile
@@ -64,16 +64,3 @@ SKILL_DETAIL="$(echo $skill|awk -F '|' '{print $3}')"
 echo "|**$SKILL_NAME**|$SKILL_YEARS|$SKILL_DETAIL|" >> $MarkdownOutputFile
 done
 unset IFS
-
-
-# Run pandoc/etc to generate HTML/PDF/DOC into output dir
-
-#First html/pdf/doc, for resume.reachableceo.com use
-
-pandoc \
-$MarkdownOutputFile \
---template eisvogel \
---metadata-file=./CharlesNWybleResume.yml \
---from markdown \
---to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/CharlesNWybleResume.pdf

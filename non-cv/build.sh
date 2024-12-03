@@ -43,7 +43,7 @@ echo "## Skills" >> "$IntermediateOutputFile"
 
 #Table heading
 
-echo "|Skill|Experience|Skil Details|" >> $IntermediateOutputFile
+echo "|Skill|Experience|Skill Details|" >> $IntermediateOutputFile
 echo "|---|---|---|" >> $IntermediateOutputFile
 #Table rows
 IFS=$'\n\t'

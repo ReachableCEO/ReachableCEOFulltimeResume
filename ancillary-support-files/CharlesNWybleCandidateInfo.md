@@ -47,24 +47,23 @@ Please be aware that:
 
 ## Rate Schedule (compensation expectations)
 
-I have **NO FLEXIBILITY** and am **NOT OPEN TO NEGOTIATION** on my rate.
+For **fully remote** roles only:
 
-For **fully remote** roles;
+I am open to (at the absolute minimum): **\$50.00 per hour(w2)/\$75.00 per hour (1099/corp to corp)/ $100,000.00 annually (w2)**. 
 
-I am open to (at minimum): **\$65.00 per hour(w2)/\$85.00 per hour (1099/corp to corp)/ $130,000.00 annually (w2)**.
+I have a strong preference for roles that are : **\$65.00 per hour(w2)/\$85.00 per hour (1099/corp to corp)/ $130,000.00 annually (w2)**.
 
-For on-site roles:
+For **on-site roles**:
 
-I am open to (at minimum): **\$75.00 per hour(w2)/\$95.00 per hour (1099/corp to corp)/ $150,000.00 annually (w2)**.
+I am open to (at the absolute minimum): **\$75.00 per hour(w2)/\$95.00 per hour (1099/corp to corp)/ $150,000.00 annually (w2)**.
 
-I am open to:
+In regards to compensation structure, I am open to:
 
 - w2
 - corp to corp (I have my own LLC)
 - 1099  
 
-If you have a rate for any of the compensation options above, send them all. I will pick which one works best for my situation
-and the opportunity.
+If you have a rate for any of the compensation options above, send them all. I will pick which one works best for my situation and the opportunity.
 
 If it's a different rate with/without benefits, send both.
 
@@ -76,7 +75,7 @@ If the above is in alignment with this opportunity, please feel free to send me 
 
 ### My resume
 
-[Download Charles resume(pdf)](https://resume.reachableceo.com/CharlesNWybleResume.pdf)
+[Download Charles resume(pdf)](https://resume.reachableceo.com/job-board/CharlesNWyble-Resume.pdf)
 
 I am happy to discuss and make edits to the resume content specific to the opportunity if you feel
 they are needed.

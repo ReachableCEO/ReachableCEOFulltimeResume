@@ -72,6 +72,7 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 - Led an Active Directory project for WDIG, designing and implementing a nationwide, highly available system across 3 data centers.
 - Managed the migration from Windows NT to Windows 2003 Active Directory domain controllers, including experience with Windows 2008, Centrify, and Samba/Winbind/LDAP/Kerberos.
 
+\pagebreak 
 **Electronic Clearing House | Senior System Administrator | April 2005 - July 2006**
  
 - Linux systems engineer in a 24x7 transaction processing/ecommerce/flnancial services environment, collaborating with network administration and infrastructure design teams.
@@ -106,10 +107,11 @@ Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/
 |**Free/Libre/Open Source software**|22 years|Apache,Postfix,Qmail,Dovecot,Courier IMAP,Nginx,Matamo,Discourse,Wordpress,  Mautic,Dolibarr,Revive Ad Server,Firefly,Cloudron,Coolify,Gitea,  HomeAssistant,  Jenkins,Rundeck,N8N,  LetsEncrypt,ACME,cfssl|
 |**Databases**|22 years| MySQL,PostgreSQL,  Dbeaver,PHPMyAdmin,PostGIS|
 |**Cyber Security**|22 years|PCI Compliance (tier 1 implementations),OpenVAS<,Lynis,security hardening,audits,breach response and mitigation, patch and vulnerability management. AppArmor, SeLinux, Centrify, Tripwire, Integrit, OSSEC |
+|**Virtualization**|22 years|VmWare,Parallels,HyperV,KVM,Xen|
 |**Networking**|22 years|Linux Virtual Server(LVS),HAProxy,Ubiquiti Unifi,Opnsense,Pfsense,DNS,DHCP,IPAM,PXE,IPS,IDS,GRE,IPSEC.Wireguard,OpenVPN,Nebula,Tailscale,RADIUS. Mostly layer2 data center/campus/access some WAN,firewall,layer3 |
 |**Monitoring**|22 years|Uptime Kuma,Librenms,Zabbix,Zenoss,Nagios,Elasticsearch,Logstash,Kibana(ELK)|
-|**Virtualization**|22 years|VmWare,Parallels,HyperV,KVM,Xen|
-|**Cloud**|5 years|AWS,Azure,Kubernetes|
+|**Storage**|22 years|Netapp,EMC,EqualLogic,3par,MSA,TrueNAS/ZFS,iscsi,S3,Azure Storage|
+|**Cloud**|5 years|AWS,Azure,Kubernetes,Helm,Docker|
 |**Containerization**|15 years|LXC,Docker,OpenVZ|
 |**Configuration management/InfrastructureAsCode(IAC)**|22 years|FetchApply,Terraform/OpenTOfU,Ansible,AWX,Hashicorp Packer/Vault|
 |**Ticket / incident / project management**| 22 years| Jira,ServiceNow,Redmine,RT|

@@ -1,15 +1,27 @@
 #!/bin/bash
 
-MarkdownInputFile="../MarkdownOutput/job-board/CharlesNWybleResume.md"
 
-# Run pandoc/etc to generate HTML/PDF/DOC into output dir
+echo "Generating PDF output for job board version..."
 
-#First html/pdf/doc, for resume.reachableceo.com use
+PDFOutputFile="D:/tsys/@Reachableceo/resume.reachableceo.com/job-board/CharlesNWyble-Resume.pdf"
+MSWordOutputFile="D:/tsys/@Reachableceo/resume.reachableceo.com/job-board/CharlesNWyble-Resume.doc"
+MarkdownInputFile="../MarkdownOutput/job-board/CharlesNWybleResume.md "
+PandocMetadataFile="./CharlesNWyble-JobBoard.yml"
 
 pandoc \
-$MarkdownInputFile \
+"$MarkdownInputFile" \
 --template eisvogel \
---metadata-file=./CharlesNWyble-JobBoard.yml \
+--metadata-file="$PandocMetadataFile" \
 --from markdown \
 --to=pdf \
---output /d/tsys/@ReachableCEO/resume.reachableceo.com/CharlesNWybleResume.pdf
+--output $PDFOutputFile
+
+echo "Generating MSWord output for client submission version..."
+
+pandoc \
+"$MarkdownInputFile" \
+--metadata-file="$PandocMetadataFile" \
+--from markdown \
+--to=docx \
+--reference-doc=resume-docx-reference.docx \
+--output $MSWordOutputFile

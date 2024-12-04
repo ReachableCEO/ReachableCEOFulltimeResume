@@ -1,11 +1,26 @@
 #!/bin/bash
 
-PDFOutputFIle="./output/client-submit/CharlesNWyble-Resume.pdf"
+echo "Generating PDF output for client submission version..."
+
+PDFOutputFile="D:/tsys/@Reachableceo/resume.reachableceo.com/client-submit/CharlesNWyble-Resume.pdf"
+MSWordOutputFile="D:/tsys/@Reachableceo/resume.reachableceo.com/client-submit/CharlesNWyble-Resume.doc"
+MarkdownInputFile="../MarkdownOutput/client-submit/CharlesNWybleResume.md "
+PandocMetadataFile="./CharlesNWyble-ClientSubmit.yml"
 
 pandoc \
-./output/client-submit/CharlesNWybleResume.md \
+"$MarkdownInputFile" \
 --template eisvogel \
---metadata-file=./CharlesNWyble-ClientSubmit.yml \
+--metadata-file="$PandocMetadataFile" \
 --from markdown \
 --to=pdf \
---output $PDFOutputFIle
+--output $PDFOutputFile
+
+echo "Generating MSWord output for client submission version..."
+
+pandoc \
+"$MarkdownInputFile" \
+--metadata-file="$PandocMetadataFile" \
+--from markdown \
+--to=docx \
+--reference-doc=resume-docx-reference.docx \
+--output $MSWordOutputFile

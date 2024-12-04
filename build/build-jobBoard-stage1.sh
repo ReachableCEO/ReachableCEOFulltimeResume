@@ -1,9 +1,12 @@
 #!/bin/bash
 
+
+echo "Cleaning up from previous runs..."
+
 MarkdownOutputFile="../MarkdownOutput/job-board/CharlesNWybleResume.md"
 rm $MarkdownOutputFile
 
-# Combine markdown files into single input file for pandoc
+echo "Combining markdown files into single input file for pandoc..."
 
 #Pull in my contact info
 cat "../boilerplate/Contact-Info.md" >> $MarkdownOutputFile

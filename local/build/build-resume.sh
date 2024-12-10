@@ -10,13 +10,6 @@ export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/ReachableCEOResume/local"
 #SET THIS OR NOTHING WILL WORK
 #############################################################################
 
-#############################################################################
-#If you want a quick demo, you can leave the below values un-changed. Otherwise
-#modify them to refelect your details/preferences.
-#############################################################################
-
-
-
 ###################################################
 # Modify these values to suit
 ###################################################
@@ -44,7 +37,7 @@ export CandidateTagline="Tenacity. Velocity. Focus."
 # Formatting options
 ########################
 
-#export CandidateLogo="D:\\tsys\\@ReachableCEO\\ReachableCEO.png"
+export CandidateLogo="D:/tsys/@ReachableCEO/ReachableCEO.png"
 export SourceCode="https://git.knownelement.com/reachableceo/ReachableCEOResume"
 export URLCOLOR="blue"
 export PAGEBACKGROUND="$PipelineClientWorkingDir/build/background5.pdf"

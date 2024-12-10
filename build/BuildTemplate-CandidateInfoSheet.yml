@@ -1,0 +1,14 @@
+title: "{{CandidateName}} Candidate Information Sheet"
+titlepage: true
+titlepage-logo: "{{CandidateLogo}}"
+toc: true
+toc-own-page: true
+date: \today
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "{{CandidateName}}"
+footer-center: "{{CandidateTagline}}"
+footer-right: "[Source code]({{SourceCode}})"
+urlcolor: {{URLCOLOR}}
+page-background: "{{PAGEBACKGROUND}}"

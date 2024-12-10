@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+# This requires tomdoc.sh to be in your PATH.
+# https://github.com/tests-always-included/tomdoc.sh
+
+cd "${0%/*}" || exit 1
+
+cat <<'EOF'
+API / Function Documentation
+============================
+
+This documentation is generated automatically from the source of [mo] thanks to [tomdoc.sh].
+
+
+EOF
+sed 's/# shellcheck.*//' mo | tomdoc.sh -m
+cat <<'EOF'
+[mo]: ./mo
+[tomdoc.sh]: https://github.com/tests-always-included/tomdoc.sh
+EOF

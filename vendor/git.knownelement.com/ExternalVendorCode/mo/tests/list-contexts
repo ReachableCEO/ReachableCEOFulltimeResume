@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export a=foo
+export b=wrong
+declare -A sec
+sec=([b]="bar")
+export sec
+declare -A c
+c=([d]="baz")
+export c
+export template="{{#sec}}{{a}} {{b}} {{c.d}}{{/sec}}"
+export expected="foo bar baz"
+
+runTest

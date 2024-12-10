@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export person=""
+template() {
+    cat <<EOF
+Shown.
+{{#person}}
+  Never shown!
+{{/person}}
+EOF
+}
+export expected=$'Shown.\n'
+
+runTest

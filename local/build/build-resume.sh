@@ -27,15 +27,16 @@ export PipelineClientWorkingDir="D:/tsys/@ReachableCEO/ReachableCEOResume/local"
 
 export CandidateName="Charles N Wyble"
 export CandidatePhone="1 818 280 7059"
-export CandidateLocation="Austin TX / Raleigh NC / Remote"
+export CandidateLocation="Austin TX / Raleigh NC / Remote "
 export CandidateEmail="reachableceo@reachableceo.com"
 
 ########################
 # Profile information
 ########################
 
-export CandidateOneLineSummary="Super awesome and stuff."
-export CandidateLinkedin="https://www.linkedin.com/"
+export CandidateOneLineSummary="Senior (**Staff level**) **System Engineer/SRE/Architect** with extensive Linux/Windows/Networking/Cyber security background and experience 
+"
+export CandidateLinkedin="https://www.linkedin.com/in/charles-wyble-412007337"
 export CandidateGithub="https://www.github.com/reachableceo"
 export CandidateTagline="Tenacity. Velocity. Focus."
 
@@ -44,9 +45,9 @@ export CandidateTagline="Tenacity. Velocity. Focus."
 ########################
 
 export CandidateLogo="D:\tsys\@ReachableCEO\ReachableCEO.png"
-export SourceCode="https://git.knownelement.com/reachableceo/MarkdownResume-Pipeline"
+export SourceCode="https://git.knownelement.com/reachableceo/ReachableCEOResume"
 export URLCOLOR="blue"
-export PAGEBACKGROUND="../vendor/git.knownelement.com/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background3.pdf"
+export PAGEBACKGROUND="$PipelineClientWorkingDir/build/background5.pdf"
 
 ##########################
 # Candidate info sheet

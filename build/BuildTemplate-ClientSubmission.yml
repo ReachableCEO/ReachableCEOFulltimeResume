@@ -1,7 +1,0 @@
-title: "{{CandidateName}} Resume"
-header-left: "\\hspace{1cm}"
-header-center: "\\leftmark"
-header-right: "Page \\thepage"
-footer-left: "{{CandidateName}}"
-urlcolor: {{URLCOLOR}}
-page-background: "{{PAGEBACKGROUND}}"

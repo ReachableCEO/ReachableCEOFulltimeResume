@@ -1,0 +1,9 @@
+local/build-output/client-submission/*.md
+local/build-output/client-submission/*.pdf
+local/build-output/client-submission/*.doc
+local/build-output/CandidateInfoSheet*
+local/build-output/job-board/*.md
+local/build-output/job-board/*.pdf
+local/build-output/job-board/*.doc
+local/build-temp/*.yml
+local/build-temp/*.md

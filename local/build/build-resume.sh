@@ -44,7 +44,7 @@ export CandidateTagline="Tenacity. Velocity. Focus."
 # Formatting options
 ########################
 
-export CandidateLogo="D:\tsys\@ReachableCEO\ReachableCEO.png"
+#export CandidateLogo="D:\\tsys\\@ReachableCEO\\ReachableCEO.png"
 export SourceCode="https://git.knownelement.com/reachableceo/ReachableCEOResume"
 export URLCOLOR="blue"
 export PAGEBACKGROUND="$PipelineClientWorkingDir/build/background5.pdf"

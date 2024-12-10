@@ -5,5 +5,4 @@ local/build-output/CandidateInfoSheet*
 local/build-output/job-board/*.md
 local/build-output/job-board/*.pdf
 local/build-output/job-board/*.doc
-local/build-temp/*.yml
-local/build-temp/*.md
+local/build-temp/

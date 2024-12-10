@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export multilineData=$'line 1\nline 2'
+template() {
+    cat <<EOF
+Partial:
+
+{{> fixtures/multi-line-partial.partial}}
+
+Indented:
+
+    {{> fixtures/multi-line-partial.partial}}
+EOF
+}
+expected() {
+    cat <<EOF
+Partial:
+
+line 1
+line 2
+
+Indented:
+
+    line 1
+line 2
+EOF
+    # This one looks odd, but if you check the spec spec/specs/partials.yaml,
+    # name "Standalone Indentation" (mirrors "standalone-indentation" in
+    # tests/), then the spec clearly shows that the indentation is applied
+    # before rendering.
+}
+
+runTest

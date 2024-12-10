@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export arguments=(--source=invalid)
+export returnCode=1
+export template="Do not display this"
+export expected=$'No such file: invalid\n'
+
+runTest

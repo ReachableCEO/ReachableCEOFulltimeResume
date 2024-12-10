@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export template="Wor{{! comment }}ks"
+export expected="Works"
+
+runTest

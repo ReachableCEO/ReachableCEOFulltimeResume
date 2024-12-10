@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export arguments=(--fail-on-file -- --help)
+export returnCode=1
+export template=""
+export expected=$'ERROR: No such file: --help\n'
+
+runTest

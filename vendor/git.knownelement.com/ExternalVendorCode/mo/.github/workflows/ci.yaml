@@ -1,0 +1,13 @@
+name: CI
+on: [push]
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v1
+      - name: Run tests
+        run: ./run-tests
+      - name: Run against spec
+        run: ./run-spec

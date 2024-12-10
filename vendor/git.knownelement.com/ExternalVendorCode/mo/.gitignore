@@ -1,0 +1,9 @@
+*.swp
+diagnostic.partial
+diagnostic.test
+tests/*.diff
+spec/
+spec-runner/
+node_modules/
+package.json
+package-lock.json

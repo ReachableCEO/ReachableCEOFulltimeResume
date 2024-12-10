@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export name=Willy
+wrapped() {
+    # Wrapping 'cat' in a subshell eats the trailing whitespace
+    # The echo adds a newline, which is preserved.
+    echo "<b>$(cat)</b>"
+}
+template() {
+    cat <<EOF
+{{#wrapped}}
+  {{name}} is awesome.
+{{/wrapped}}
+... this is the last line.
+EOF
+}
+
+# We don't expect {{name}} to be changed. The function returns whatever content
+# that should be the result. There is a separate test where the function handles
+# parsing mustache tags.
+export expected=$'<b>  {{name}} is awesome.</b>\n... this is the last line.\n'
+
+runTest

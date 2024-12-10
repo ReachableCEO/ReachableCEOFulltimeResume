@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export boolean=true
+export template=$' | {{#boolean}} {{! Important Whitespace }}\n {{/boolean}} | \n'
+export expected=$' |  \n  | \n'
+
+runTest

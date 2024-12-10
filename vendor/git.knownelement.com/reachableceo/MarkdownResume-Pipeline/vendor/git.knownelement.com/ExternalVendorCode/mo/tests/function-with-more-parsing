@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export name=Willy
+wrapped() {
+    local content
+
+    # Wrapping 'cat' in a subshell eats the trailing whitespace
+    content="<b>$(cat)</b>"
+
+    # Parse the content using mustache
+    mo::parse content "$content"
+
+    # The echo adds a newline, which is preserved.
+    echo "$content"
+}
+template() {
+    cat <<EOF
+{{#wrapped}}
+  {{name}} is awesome.
+{{/wrapped}}
+... this is the last line.
+EOF
+}
+export expected=$'<b>  Willy is awesome.</b>\n... this is the last line.\n'
+
+runTest

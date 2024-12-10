@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export repo=()
+template() {
+    cat <<EOF
+{{#repo}}
+  <b>{{.}}</b>
+{{/repo}}
+{{^repo}}
+  No repos :(
+{{/repo}}
+EOF
+}
+export expected=$'  No repos :(\n'
+
+runTest

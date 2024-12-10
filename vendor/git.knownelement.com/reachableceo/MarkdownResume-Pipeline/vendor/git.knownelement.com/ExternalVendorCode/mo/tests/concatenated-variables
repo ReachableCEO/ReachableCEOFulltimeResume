@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export thing="Wor"
+export thing2="ks"
+export template="{{thing thing2}}"
+export expected="Works"
+
+runTest

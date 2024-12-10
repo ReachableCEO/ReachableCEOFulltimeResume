@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+failFunction() {
+    false
+}
+export arguments=(--fail-on-function)
+export returnCode=1
+export template="Fail on function? {{failFunction}}"
+export expected=$'ERROR: Function failed with status code 1: "failFunction"\n'
+
+runTest

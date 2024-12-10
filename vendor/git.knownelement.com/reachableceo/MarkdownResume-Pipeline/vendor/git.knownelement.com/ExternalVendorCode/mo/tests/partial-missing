@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+cd "${0%/*}" || exit 1
+. ../run-tests
+
+export returnCode=1
+export arguments=(--fail-on-file)
+export person=""
+template() {
+    cat <<EOF
+Won't be there: {{> fixtures/partial-missing.partial}}
+EOF
+}
+expected() {
+    cat <<EOF
+ERROR: No such file: partial-missing.partial
+EOF
+}
+
+runTest

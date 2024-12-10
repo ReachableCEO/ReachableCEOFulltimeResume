@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#
+# This sources a simple script with the env. variables needed for the template.
+
+cd "$(dirname "$0")" # Go to the script's directory
+source ../mo
+
+export NAME="Alex"
+export ARRAY=( AAA BBB CCC )
+
+# Include an external template
+INCLUDE() {
+    # shellcheck disable=SC2031
+    cat "${MO_FUNCTION_ARGS[0]}"
+}
+
+# Print section title
+TITLE() {
+    echo "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"
+    # shellcheck disable=SC2031
+    echo "${MO_FUNCTION_ARGS[0]}"
+    echo "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"
+}
+
+cat <<EOF | mo -u
+{{TITLE 'Part 1'}}
+{{INCLUDE 'function-args-part1'}}
+
+{{TITLE 'Part 2'}}
+{{INCLUDE 'function-args-part2'}}
+EOF

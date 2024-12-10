@@ -1,0 +1,14 @@
+title: "Charles N Wyble Candidate Information Sheet"
+titlepage: true
+titlepage-logo: "D:\tsys\@ReachableCEO\ReachableCEO.png"
+toc: true
+toc-own-page: true
+date: \today
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "Charles N Wyble"
+footer-center: "Tenacity. Velocity. Focus."
+footer-right: "[Source code](https://git.knownelement.com/reachableceo/MarkdownResume-Pipeline)"
+urlcolor: blue
+page-background: "../vendor/git.knownelement.com/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background3.pdf"

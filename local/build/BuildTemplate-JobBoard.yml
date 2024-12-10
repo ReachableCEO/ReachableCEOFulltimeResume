@@ -1,0 +1,12 @@
+title: "{{CandidateName}} Resume"
+titlepage: true
+titlepage-logo: "{{CandidateLogo}}"
+date: \today
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "{{CandidateName}}"
+footer-center: "{{CandidateTagline}}"
+footer-right: "[Source code]({{SourceCode}})"
+urlcolor: {{URLCOLOR}}
+page-background: "{{PAGEBACKGROUND}}"

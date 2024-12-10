@@ -1,0 +1,6 @@
+- Deployed,configured,supported Cloudron and Coolify PAAS and a full IT/SRE/Devops and engineering software stack for a stealth aerospace startup. 
+- Provided technician support to a team of electrical engineers building the power system for the radar of FrakenSAM in Ukraine. Handled high / low voltage wiring and plumbing and documentation of those systems. 
+- Provided root cause analysis and remediation for a security breach at a defense contractor.
+- Developed a rapidly field deployable mesh networking system for a variety of use cases.
+- Developed a secure global video conferencing system using only 3mbps for a major defense contractor.
+- Advised on backend infrastructure for broadcasting news and information via radio and internet into hostile powers. 

@@ -1,0 +1,7 @@
+title: "Charles N Wyble Resume"
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page \\thepage"
+footer-left: "Charles N Wyble"
+urlcolor: blue
+page-background: "../vendor/git.knownelement.com/ExternalVendorCode/pandoc-latex-template/examples/page-background/backgrounds/background3.pdf"

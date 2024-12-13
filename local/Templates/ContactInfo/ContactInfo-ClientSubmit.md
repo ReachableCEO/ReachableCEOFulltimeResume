@@ -1,4 +1,0 @@
-{{CandidateName}}
-=====
-
-{{CandidateOneLinerSummary}}

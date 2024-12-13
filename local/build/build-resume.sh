@@ -35,6 +35,15 @@ export ClientSubmissionMarkdownOutputFile="$BUILD_OUTPUT_DIR/client-submit/Charl
 export ClientSubmissionPDFOutputFile="$BUILD_OUTPUT_DIR/client-submit/CharlesNWyble-Resume.pdf"
 export ClientSubmissionMSWordOutputFile="$BUILD_OUTPUT_DIR/client-submit/CharlesNWyble-Resume.doc"
 
-# Call the build-pipeline-server in the vendored repository to produce output artifacts
+# Cleanup previous output artifacts
+
+rm $BUILD_TEMP_DIR/*.yml
+rm $BUILD_TEMP_DIR/*.md
+
+rm $BUILD_OUTPUT_DIR/client-submit/*
+rm $BUILD_OUTPUT_DIR/job-board/*
+rm $BUILD_OUTPUT_DIR/recruiter/*
+
+# Call the build-pipeline-server in the vendored repository to produce updated output artifacts
 
 bash ../../vendor/git.knownelement.com/reachableceo/MarkdownResume-Pipeline/build/build-pipeline-server-markdown.sh

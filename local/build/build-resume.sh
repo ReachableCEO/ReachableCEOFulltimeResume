@@ -18,7 +18,7 @@ source ./CandidateVariables.env
 export MO_PATH="bash ../../vendor/git.knownelement.com/ExternalVendorCode/mo/mo"
 
 export BUILD_TEMP_DIR="$PipelineClientWorkingDir/build-temp/MarkdownResume"
-export BUILD_OUTPUT_DIR="D:/tsys/@ReachableCEO/resume.reachableceo.com/"
+export BUILD_OUTPUT_DIR="D:/tsys/@ReachableCEO/resume.reachableceo.com"
 
 export BUILDYAML_JOBBOARD="$BUILD_TEMP_DIR/JobBoard.yml"
 export BUILDYAML_CLIENTSUBMISSION="$BUILD_TEMP_DIR/ClientSubmission.yml"
@@ -35,7 +35,7 @@ export ClientSubmissionMarkdownOutputFile="$BUILD_OUTPUT_DIR/client-submit/Charl
 export ClientSubmissionPDFOutputFile="$BUILD_OUTPUT_DIR/client-submit/CharlesNWyble-Resume.pdf"
 export ClientSubmissionMSWordOutputFile="$BUILD_OUTPUT_DIR/client-submit/CharlesNWyble-Resume.doc"
 
-# Cleanup previous output artifacts
+# Cleanup previous intermediatge and final output artifacts
 
 rm $BUILD_TEMP_DIR/*.yml
 rm $BUILD_TEMP_DIR/*.md

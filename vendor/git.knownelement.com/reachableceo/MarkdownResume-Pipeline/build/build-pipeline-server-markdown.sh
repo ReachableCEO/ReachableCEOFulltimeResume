@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 #####################################################################################################
 #Markdown to PDF/MSWord Resumek and candidate info sheet
 #####################################################################################################
@@ -8,7 +10,11 @@
 # Create the candidate information PDF
 #############################################
 
-$MO_PATH $PipelineClientWorkingDir/build/BuildTemplate-CandidateInfoSheet.yml > $BUILDYAML_CANDIDATEINFOSHEET
+# Expand variables into rendered YAML files. These will be used by pandoc to create the output artifacts
+
+$MO_PATH $YamlInputTemplateFileJobBoard > $BUILDYAML_JOBBOARD
+$MO_PATH $YamlInputTemplateFileClientSubmission > $BUILDYAML_CLIENTSUBMISSION
+$MO_PATH $YamlInputTemplateFileClientSubmission > $BUILDYAML_CANDIDATEINFOSHEET
 
 echo "Creating candidate info sheet..."
 
@@ -16,16 +22,13 @@ $MO_PATH $PipelineClientWorkingDir/Templates/MarkdownResume/CandidateInfoSheet/C
 
 pandoc \
 "$CandidateInfoSheetMarkdownOutputFile" \
---template eisvogel \
---metadata-file="$PipelineClientWorkingDir/build-temp/MarkdownResume/CandidateInfoSheet.yml" \
+--template $PANDOC_TEMPLATE \
+--metadata-file="$BUILDYAML_CANDIDATEINFOSHEET" \
 --from markdown \
 --to=pdf \
 --output $CandidateInfoSheetPDFOutputFile
 
-# Expand variables into rendered YAML files. These will be used by pandoc to create the output artifacts
 
-$MO_PATH $PipelineClientWorkingDir/build/BuildTemplate-JobBoard.yml > $BUILDYAML_JOBBOARD
-$MO_PATH $PipelineClientWorkingDir/build/BuildTemplate-ClientSubmission.yml > $BUILDYAML_CLIENTSUBMISSION
 
 echo "Combining markdown files into single input file for pandoc..."
 
@@ -124,38 +127,38 @@ echo "Generating PDF output for job board version..."
 
 pandoc \
 "$JobBoardMarkdownOutputFile" \
---template eisvogel \
---metadata-file="$PipelineClientWorkingDir/build-temp/MarkdownResume/JobBoard.yml" \
+--template $PANDOC_TEMPLATE \
+--metadata-file="$BUILDYAML_JOBBOARD" \
 --from markdown \
 --to=pdf \
 --output "$JobBoardPDFOutputFile"
-
-echo "Generating MSWord output for job board version..."
-
-pandoc \
-"$JobBoardMarkdownOutputFile" \
---metadata-file="$PipelineClientWorkingDir/build-temp/MarkdownResume/JobBoard.yml" \
---from markdown \
---to=docx \
---reference-doc="$PipelineClientWorkingDir/build/resume-docx-reference.docx" \
---output "$JobBoardMSWordOutputFile"
 
 echo "Generating PDF output for client submission version..."
 
 pandoc \
 "$ClientSubmissionMarkdownOutputFile" \
---template eisvogel \
---metadata-file="$PipelineClientWorkingDir/build-temp/MarkdownResume/ClientSubmission.yml" \
+--template "$PANDOC_TEMPLATE" \
+--metadata-file="$BUILDYAML_CLIENTSUBMISSION" \
 --from markdown \
 --to=pdf \
 --output "$ClientSubmissionPDFOutputFile"
+
+echo "Generating MSWord output for job board version..."
+
+pandoc \
+"$JobBoardMarkdownOutputFile" \
+--metadata-file="$BUILDYAML_JOBBOARD" \
+--from markdown \
+--to=docx \
+--reference-doc="$WordOutputReferenceDoc" \
+--output "$JobBoardMSWordOutputFile"
 
 echo "Generating MSWord output for client submission version..."
 
 pandoc \
 "$ClientSubmissionMarkdownOutputFile" \
---metadata-file="$PipelineClientWorkingDir/build-temp/MarkdownResume/ClientSubmission.yml" \
+--metadata-file="$BUILDYAML_CLIENTSUBMISSION" \
 --from markdown \
 --to=docx \
---reference-doc="$PipelineClientWorkingDir/build/resume-docx-reference.docx" \
+--reference-doc="$WordOutputReferenceDoc" \
 --output "$ClientSubmissionMSWordOutputFile"

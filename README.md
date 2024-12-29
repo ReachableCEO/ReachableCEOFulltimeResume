@@ -1,17 +1,23 @@
 # ReachableCEO Fulltime Resume
 
+## License 
+
+Code is AGPLv3 only. 
+
+Data files (markdown / csv) are proprietary license , all rights reserved by Charles Wyble / ReachableCEO enterprises and may not be used for any purpose at any time by anyone in the known or unknown universe. 
+
 ## Introduction
 
-This is the resume Charles N Wyble (@ReachableCEO) uses for seeking fulltime employment for systems engineering/SRE/devops roles.
+This is the profile that Charles N Wyble (@ReachableCEO) uses for seeking fulltime employment for systems engineering/SRE/devops roles.
 
 It contains the markdown/csv files that represent his production resume for fulltime employment.
 
-He also has a resume for consulting/freelance work: [here](https://git.knownelement.com/reachableceo/ReachableCEOConsultantResume) and it uses the same structure/process as this one.
+He also is building a profile for consulting/freelance work: [here](https://git.knownelement.com/reachableceo/ReachableCEOConsultantResume) and it uses the same structure/process as this one.
 
-Two core artifacts are output from those files by this process:
+Two core artifacts are output by this process:
 
-- PDF/MSWord Resume (auto parsed/populated by all job boards)
-- PDF Candidate information sheet (streamlining the initial lead (dis)qualification process.)
+- PDF/MSWord Resume (auto parsed/populated by all job boards) / PDF Candidate information sheet (streamlining the initial lead (dis)qualification process.)
+- JSON resume 
 
 ## Production use
 

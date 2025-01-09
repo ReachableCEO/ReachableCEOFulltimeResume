@@ -1,2 +1,3 @@
+- Automated monitoring via Nagios. Wrote scripts to auto generate all of the nagios configuration files from the in-house configuration management database (CMDB). 
 - Provided system engineering expertise for customer-facing advertising platform (AdSpot) and internal ﬂeet management tool (CPanel).
 - Utilized Nginx, Mongrel, Thin, Rails, Merb, Rack, MySQL, memcached, and F5 LTM.

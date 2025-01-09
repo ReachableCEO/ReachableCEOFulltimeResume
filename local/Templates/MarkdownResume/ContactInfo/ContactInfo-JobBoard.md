@@ -3,4 +3,4 @@
 
 {{CandidateOneLinerSummary}}
 
-[ [Github Profile]({{CandidateGithub}}) ] .  [ [Linkedin Profile]({{CandidateLinkedin}}) ] . [ {{CandidateEmail}} ] . [ {{CandidatePhone}} ] . [ {{CandidateLocation}} ]
+[ [Git Profile]({{CandidateGit}}) ] .  [ [Linkedin Profile]({{CandidateLinkedin}}) ] . [ {{CandidateEmail}} ] . [ {{CandidatePhone}} ] 

@@ -1,0 +1,1 @@
+- Used ServiceNow, Visual Studio, TeamFoundationServer, Oracle to support day to day programming/batch/job scheduling operations of a Medicare solutions provider.

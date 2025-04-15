@@ -23,7 +23,7 @@ If the opportunity you are presenting to me is able to meet / exceed the below r
 
 - I **am willing to re-locate**
 - Re-location **requires at least a $5,000.00 net payment fully paid before start date** if outside **Austin, TX** geographic region.
-- The relocation payment **must not have and claw-back/payback terms** associated with it.
+- The relocation payment **must not have any claw-back/payback terms** associated with it.
 - I **do not** need to sell my house or make complex logistics arrangements.
 - I **will** need time to prepare for an extended absence and will re-locate within four weeks of receiving a confirmed start date.
 

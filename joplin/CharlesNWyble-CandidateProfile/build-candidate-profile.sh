@@ -2,8 +2,9 @@
 
 set -euo pipefail
 
-if [ -f CharlesNWyble-CandidateProfile.pdf ] ; then
-    rm -vf CharlesNWyble-CandidateProfile.pdf
+if [ -f "D:/tsys/ReachableCEOPublic/MarketingMaterials/outputs/profile-fte.reachableceo.com/CharlesNWyble-CandidateProfile.pdf" ]; 
+then
+    rm -vf "D:/tsys/ReachableCEOPublic/MarketingMaterials/outputs/profile-fte.reachableceo.com/CharlesNWyble-CandidateProfile.pdf" 
 fi
 
 pandoc \
@@ -12,4 +13,4 @@ CharlesNWyble-CandidateProfile.md \
 --metadata-file="./CharlesNWyble-CandidateProfile.yml" \
 --from markdown \
 --to=pdf \
---output CharlesNWyble-CandidateProfile.pdf
+--output D:/tsys/ReachableCEOPublic/MarketingMaterials/outputs/profile-fte.reachableceo.com/CharlesNWyble-CandidateProfile.pdf

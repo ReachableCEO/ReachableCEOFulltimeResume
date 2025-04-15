@@ -12,12 +12,12 @@ The following requirements are firm and non-negotiable for all opportunities.
 
 If the opportunity you are presenting to me cannot meet the below requirements, I appreciate you keeping my profile in your system for future opportunities that would align with the below requirements, thank you.
 
-If the opportunity you are presenting to me is able to meet / exceed the below requirements, please send me an RTR for review.
+If the opportunity you are presenting to me is able to meet / exceed the below requirements, please send me an RTR with your max/best rate for my review.
 
 ### ID/References
 
-- **ID Verification**: Will only show ID via video call, will NEVER send a copy (even redacted).
-- **Professional References**: Only provided after interview is scheduled, NEVER upfront
+- **ID Verification**: Will show ID via video call, will NEVER send a copy (even redacted).
+- **Professional References**: provided after an offer of employment has been extended, NEVER up-front.
 
 ### Relocation
 
@@ -59,15 +59,23 @@ These rates are for Austin metro areas , other areas will have rates adjusted fo
 
 Please provide all available rate options for the compensation types above. If rates differ with/without benefits, please send both options. I will select what works best for my situation.
 
-## Resume & Submission Process
+## Employment History
 
-My comprehensive employment history is available here:
+### Comprehensive Employment History
 
-[Download](https://profile-fte.reachableceo.com/job-board/CharlesNWyble-Resume.pdf) Charles N Wyble comprehensive employment history document.
+My comprehensive employment history is available for download here:
 
-**Important**: I **DO NOT** permit use of the above resume for submission. Upon execution of a satisfactory RTR, I will send a customized resume for this specific role. I'm happy to discuss edits if needed and I must approve the final version submitted to the client portal.
+[Download](https://profile-fte.reachableceo.com/CharlesNWyble-ComprehensiveEmploymentHistory.pdf) Charles N Wyble comprehensive employment history document.
 
-## Complete Candidate Details
+### Customized Resume for this role
+
+**Important**: I **DO NOT** permit use of the above comprehensive employment history for submission. The goal of that document is to showcase my entire skill-set to help you determine if I'm a fit for the role you have sent me.
+
+Upon execution of a satisfactory RTR, I will send a customized resume for this specific role.
+
+I'm happy to discuss any edits needed, and I must approve the final version submitted to the client portal.
+
+## Candidate Details needed for client portal submission
 
 | Question | Answer |
 | -------- | ------ |

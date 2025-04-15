@@ -4,9 +4,7 @@
 
 Hello,
 
-I apologize for the form letter response. I receive a high volume of recruiter communications daily and have found this document to be the most efficient way to handle inquiries and reduce back-and-forth communication.
-
-For questions not covered in this document, please email me.
+I apologize for the form letter response. I receive a high volume of employment opportunity related inquiries daily and have found this document to be the most efficient way to handle inquiries and reduce back-and-forth communication.
 
 ## NON-NEGOTIABLE REQUIREMENTS
 
@@ -23,7 +21,13 @@ If the opportunity you are presenting to me is able to meet / exceed the below r
 
 ### Relocation
 
-Requires a minimum **$5,000.00 net payment** fully paid/settled before start date if outside Austin, TX or Raleigh North Carolina metro areas. The payment must not have any clawback/payback terms associated with it.
+- I **am willing to re-locate**
+- Re-location **requires at least a $5,000.00 net payment fully paid before start date** if outside **Austin, TX** geographic region.
+- The relocation payment **must not have and claw-back/payback terms** associated with it.
+- I **do not** need to sell my house or make complex logistics arrangements.
+- I **will** need time to prepare for an extended absence and will re-locate within four weeks of receiving a confirmed start date.
+
+\pagebreak
 
 ### Compensation
 
@@ -33,16 +37,16 @@ I may have some flexibility on rates for **fully remote, full-time (or long-term
 
 #### Fully Remote
 
-- Contract (<6 months): hourly rate : **$70 or higher**
-- Contract (>12 months) hourly rate: **$50 or higher**
+- Contract (<6 months): rate : **$70 or higher**
+- Contract (>12 months) rate: **$50 or higher**
 - Full-time salary (annual rate): **$140,000 or higher**
 
 #### Hybrid / On-site
 
-These rates are for Austin or Raleigh metro area only, other areas will be higher rates due to cost of living and my need to maintain a second residence.
+These rates are for Austin metro areas , other areas will have rates adjusted for cost of living and my need to maintain a second home.
 
-- Contract (<6 months) hourly rate: **$90 or higher**
-- Contract (>12 months) hourly rate: **$85/ or higher**
+- Contract (<6 months) rate: **$90 or higher**
+- Contract (>12 months) rate: **$85/ or higher**
 - Full-time salary: **$160,000 or higher**
 
 ## Compensation Details
@@ -55,19 +59,13 @@ These rates are for Austin or Raleigh metro area only, other areas will be highe
 
 Please provide all available rate options for the compensation types above. If rates differ with/without benefits, please send both options. I will select what works best for my situation.
 
-## Relocation Information
-
-If the job is outside the Austin, Texas or Raleigh, North Carolina metro area, I will need to re-locate as noted in the requirements section.
-
-I **do not** need to sell my house or make complex logistics arrangements, but will need time to prepare for an extended absence. I can relocate within four weeks of receiving an employment offer.
-
 ## Resume & Submission Process
 
 My comprehensive employment history is available here:
 
-[Download Charles N Wyble resume (PDF)](https://profile-fte.reachableceo.com/job-board/CharlesNWyble-Resume.pdf)
+[Download](https://profile-fte.reachableceo.com/job-board/CharlesNWyble-Resume.pdf) Charles N Wyble comprehensive employment history document.
 
-**Important**: I **DO NOT** authorize use of the above resume for submission. Upon execution of a satisfactory RTR, I will send a customized resume for this specific role. I'm happy to discuss edits if needed and must approve the final version being submitted.
+**Important**: I **DO NOT** permit use of the above resume for submission. Upon execution of a satisfactory RTR, I will send a customized resume for this specific role. I'm happy to discuss edits if needed and I must approve the final version submitted to the client portal.
 
 ## Complete Candidate Details
 
@@ -90,7 +88,7 @@ My comprehensive employment history is available here:
 | Location of school | Arleta, CA |
 | LinkedIn Profile | <https://www.linkedin.com/in/charles-wyble-412007337> |
 | Git Profile | <https://git.knownelement.com/reachableceo> |
-| Last project | Gainwell Technologies January 2025-Present |
+| Last project | Radcube LLC (January 2025-Present) |
 | DOB (MM/DD) | 09/14 |
 | Last 4 of social | 2803 |
 | Total IT/career experience | 25 years |
@@ -98,8 +96,6 @@ My comprehensive employment history is available here:
 | Any trips planned in next six months? | No |
 | Open to background check/expect to pass (including public trust/secret/TS/SCI SSBI) | Yes |
 | Open to drug test/expect to pass | Yes |
-
-*VMS Note: DOB/SSN information provided to facilitate vendor management system processing*
 
 Thank you for contacting me and have a wonderful day!
 

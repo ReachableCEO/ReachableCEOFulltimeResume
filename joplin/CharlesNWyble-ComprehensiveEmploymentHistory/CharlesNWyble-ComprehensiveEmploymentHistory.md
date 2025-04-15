@@ -19,7 +19,10 @@
 
 **Gainwell Technologies |  Software Engineer |  January 2025 - Present**
 
-- Used ServiceNow, Visual Studio, TeamFoundationServer, Oracle to support day to day programming/batch/job scheduling operations of a Medicare solutions provider.
+- Used ServiceNow, ALM, Visual Studio, TeamFoundationServer, Oracle SQL to support day to day programming/batch/job scheduling FINOPS of a Medicare solutions provider.
+- Developed complex queries to support account team and other key business stakeholders and end client needs. 
+ * Supported the full SDLC processes (tech design, test plan, test harness, changelog and other deliverables) for critical financial software supporting healthcare operations to develop and implement robust solutions for healthcare FINOPS processes
+* Collaborated with cross-functional teams to maintain system integrity and compliance
 
 **CDK Global | Staff System Engineer/Architect | July 2024 - October 2024**
 

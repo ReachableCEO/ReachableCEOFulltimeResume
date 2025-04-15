@@ -1,4 +1,4 @@
-# Charles N Wyble - Comprehensive Candidate Profile
+# Charles N Wyble - Candidate Profile
 
 ## Introduction
 
@@ -75,6 +75,8 @@ Upon execution of a satisfactory RTR, I will send a customized resume for this s
 
 I'm happy to discuss any edits needed, and I must approve the final version submitted to the client portal.
 
+\pagebreak
+
 ## Candidate Details needed for client portal submission
 
 | Question | Answer |
@@ -82,9 +84,7 @@ I'm happy to discuss any edits needed, and I must approve the final version subm
 | Full name | Charles N Wyble |
 | E-mail address | <reachableceo@reachableceo.com> |
 | Phone number | 1 818 280 7059 |
-| Preferred form of contact | Email will get the fastest response |
 | Work authorization | US Citizen |
-| Current employment status | Employed |
 | Current location | Austin, TX |
 | Current timezone | CST |
 | Timezones I can work in | PST/CST/EST |
@@ -96,15 +96,11 @@ I'm happy to discuss any edits needed, and I must approve the final version subm
 | Location of school | Arleta, CA |
 | LinkedIn Profile | <https://www.linkedin.com/in/charles-wyble-412007337> |
 | Git Profile | <https://git.knownelement.com/reachableceo> |
+| Current employment status | Employed |
 | Last project | Radcube LLC (January 2025-Present) |
 | DOB (MM/DD) | 09/14 |
 | Last 4 of social | 2803 |
 | Total IT/career experience | 25 years |
-| Open to in-office/hybrid | Yes |
-| Any trips planned in next six months? | No |
-| Open to background check/expect to pass (including public trust/secret/TS/SCI SSBI) | Yes |
+| Open to fully remote/in-office/hybrid | Yes |
+| Open to background check/expect to pass | Yes |
 | Open to drug test/expect to pass | Yes |
-
-Thank you for contacting me and have a wonderful day!
-
-Charles Wyble

@@ -31,33 +31,33 @@ If the opportunity you are presenting to me is able to meet / exceed the below r
 
 ### Compensation
 
-Below rates are presuming W2 with benefits. The rate expectation will adjust upward accordingly for 1099 or if beneftis aren't included.
-
-I may have some flexibility on rates for **fully remote, full-time (or long-term contract**, the job appeals to me for some reason)** roles at my sole discretion.
-
-#### Fully Remote
-
-- Contract (<6 months): rate : **$70 or higher**
-- Contract (>12 months) rate: **$50 or higher**
-- Full-time salary (annual rate): **$140,000 or higher**
-
-#### Hybrid / On-site
-
-These rates are for Austin metro areas , other areas will have rates adjusted for cost of living and my need to maintain a second home.
-
-- Contract (<6 months) rate: **$90 or higher**
-- Contract (>12 months) rate: **$85/ or higher**
-- Full-time salary: **$160,000 or higher**
-
-## Compensation Details
-
-### Compensation Types Accepted
+#### Compensation Types Accepted
 
 - W2
 - Corp to Corp (I have my own Texas LLC)
 - 1099
 
 Please provide all available rate options for the compensation types above. If rates differ with/without benefits, please send both options. I will select what works best for my situation.
+
+#### Rates
+
+Below rates are presuming W2 with benefits. The rate expectation will adjust upward accordingly for 1099 or if beneftis aren't included.
+
+I **may** have a **small** amount of flexibility with rates for some (**fully remote, long term contract**)roles at my **sole discretion**.
+
+##### Fully Remote
+
+- Contract (<6 months): rate : **$70 or higher**
+- Contract (>12 months) rate: **$50 or higher**
+- Full-time salary (annual rate): **$140,000 or higher**
+
+##### Hybrid / On-site
+
+These rates are for Austin metro areas , other areas will have rates adjusted for cost of living and my need to maintain a second home.
+
+- Contract (<6 months) rate: **$90 or higher**
+- Contract (>12 months) rate: **$85/ or higher**
+- Full-time salary: **$160,000 or higher**
 
 ## Employment History
 

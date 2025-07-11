@@ -1,0 +1,20 @@
+
+2002 to 2005 Accretive Commerce (accquired by e-bay)
+2007 to 2008 Walt Disney Internet Group  
+
+HostGator.com - Global Site Reliability Engineer - March 2011 to September 2012
+		Automated over 90% of daily common customer requests 
+		Handled training, mentoring, quality checks and overall team improvement for junior and mid level admins
+		Worked with the security desk to facillitate 24/7 restores of compromised sites
+
+
+TippingPoint - Linux System Engineer - October 2012 to present 
+		Rundeck
+		Slack
+		Automation
+		3x growth
+		Spin out to TrendMicro
+				Core information assets
+						SVN/GIT
+						Confluence
+

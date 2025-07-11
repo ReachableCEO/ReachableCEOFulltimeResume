@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+
+
+
+<resume>
+	<header>
+		<name>
+			<title>Mr</title>
+			<firstname>Charles</firstname>
+			<middlename>Nathaniel</middlename>
+			<surname>Wyble</surname>
+		</name>
+		
+		<address>
+			<street>1350 Victoria Ave Suite 116</street>
+			<city>Oxnard</city>
+			<state>CA</state>
+			<zip>93035</zip>
+		</address>
+
+		<contact>
+			<phone location="mobile">818-280-7059</phone>
+			<phone location="home">805-984-9983</phone>
+			<email>charles@thewybles.com</email>
+			<url>http://www.thewybles.com/~charles</url>
+		</contact>
+	</header>
+
+	
+	
+	<objective>
+		<para>
+			To obtain a Linux system administration position with your organization. 
+		</para>
+	</objective>
+	
+	<skillset>
+		<title>Skills Summary</title>
+		<skill level="4 years">
+		A Linux system administrator with a detailed knowledge of Linux in a wide variety of industries and environments.
+		</skill>
+     
+	 		<skill>
+			A superb communicator who will thoroughly and efficiently handle any situation requiring communication with clarity and
+      		conciseness. 
+			</skill>
+     	
+			<skill>
+			A frequent speaker/writer on a wide variety of I.T and open source matters, as well as a frequent contributer to open source
+			projects.
+			</skill>
+		</skillset>
+	<skillarea>
+		<title>System and Network Administration Skills</title>
+			<skillset>
+				<title>UNIX Administration</title>
+					<skill level="6 years">Debian (stable/testing/unstable)</skill>
+					<skill level="3 years">Mandrake </skill>
+					<skill level="2 years">SUSE</skill>
+					<skill level="3 years">Red Hat Enterprise Linux (3/4)</skill>
+					<skill level="7 years">Shell scripting/automation (bash/python/tcl/php/awk/sed)</skill>
+			</skillset>
+
+			<skillset>
+				<title>Linux Server Applications</title>
+					<skill>Apache 1/2</skill>
+					<skill>Postfix/Qmail And Cyrus/Courier</skill>
+					<skill>OpenLdap/Samba</skill>
+					<skill>IpTables/Snort/Nessus/Nmap</skill>
+					<skill>Webmin</skill>
+					<skill>Courier/Cyrus</skill>
+					<skill>Proftpd</skill>
+			</skillset>
+
+			<skillset>
+				<title>Storage Administration</title>
+					<skill level="1 year">EMC Clarion (cx400 and cx700)</skill>
+					<skill level="1 year">Equal Logic</skill>
+					<skill level="1 year">Promise ISCSI</skill>
+			</skillset>
+    
+			<skillset>
+				<title>Server Hardware</title>
+					<skill level="5 years">Dell 26/28/6850</skill>
+					<skill level="5 year">Hp NetServer</skill>
+					<skill level="5 year">Custom built/whitebox</skill>
+			</skillset>
+
+			<skillset>
+				<title>Networking</title>
+					<skill level="5 years">Cabling (backbone/serial/desktop/fiber)</skill>
+					<skill level="3 years">Routers (Cisco/Linksys/Dlink)</skill>	
+					<skill level="2 years">Load balancing (Cisco/Webmux) </skill>
+					<skill level="2 years">Switches (Cisco Catalyst/Linksys) </skill>
+			</skillset>
+
+	</skillarea>
+	
+
+		<misc>
+			<para>
+		I have founded two open source projects, and participated in many more by writing code/documentation and providing user/developer
+		support. 
+		</para>
+   
+   		<projects>
+			<project>
+				<title>The Chicago Project</title>
+					<para>
+				 	This project produced code and documentation to assist developers working with the Microsoft excel and compound
+      				document/structured storage file formats on non Microsoft platforms. I am the project manager and lead developer
+					for this project which is now in maintenance mode.  (http://chicago.sourceforge.net)
+	  				</para>
+			</project>
+
+			<project>
+				<title>The Open Source Microsoft Exchange Replacement Platform</title>
+				<para>
+					The goal of this project is to produce code and documentation that will provide a fully open source
+					drop in replacement for Microsoft Exchange. I am the project manager, and founder.
+					I work closely with the lead developer and a worldwide team of programmers, documenters, and beta testers. 
+					(http://www.thewybles.com/~charles/oser)
+				</para>
+			</project>
+		</projects>
+		</misc>
+
+
+
+	<history>
+		<job>
+			<jobtitle>Senior Linux System Administrator</jobtitle>
+			<employer>Electronic Clearing House (http://www.echo-inc.com) </employer>
+			<period>
+				<from><date><month>October</month><year>2006</year></date></from>
+				<to><date><month>June</month><year>2006</year></date></to>
+				
+			</period>
+
+			<description>
+				<para>
+					Senior Linux administrator for a 24x7 transaction processing/ecommerce/
+					financial services environment.  Responsibilities include: Working closely 
+					with the network administration and infrastructure design teams.  Ensuring continuous 
+					uptime of multiple high visibility/high impact/high value envrironments including:
+				</para>
+
+					<skillset>
+						<skill>
+						A 1TB MySQL database.
+						</skill>
+
+						<skill>
+						A 300 GB Oracle database.
+						</skill>
+
+						<skill>
+						A 1.5 GB  Oracle Data warehouse.
+						</skill>
+						
+						<skill>
+						A 4,000 store LAMP based ecommerce system.
+						</skill>
+					</skillset>
+			</description>
+
+			<projects>
+				<project>
+					<title>Deployment of encrypted backups</title>
+					<para> 
+						Designed/tested/documented/deployed an enterprise wide Linux backup system.
+						All data stored on a central server with ISCSI attached network storage. 
+						Uses GNUPG and tar over ssh. Backups/Restores tested on a weekly basis.
+					</para>
+				</project>
+
+				<project>
+					<title>Deployment of core database infrastructure.</title>
+					<para>
+					Deployed 2 Oracle RAC clusters, each consisting of 3 Dell 6850's. They are equipped with Qual Dual Core
+					Xeon's and 32 Gb of RAM, running RedHat Enterprise Linux 4.0 64bit edition.
+					One environment is for staging and one is for production. EMC attached. This environment is used for 
+					our Data Warehouse, our Transaction Processing Software and our Credit Card Clearing application. It is a 
+					fundamental infrastructure component. The hardware and software was deployed in 3 business days.
+					</para>
+				</project>
+
+				<project>
+					<title>File Integrity Checking</title>
+					<para>
+						Deployment of file integrity checking across 100 UNIX servers using fully open source software.
+						Used integrit <url>http://integrit.sf.net</url> and some custom shell scripts which were submitted
+						back upstream for inclusion.
+					</para>
+				</project>
+
+			</projects>
+		</job>
+
+
+		<job>
+			<jobtitle>Consultant</jobtitle>
+			<period>
+				<from><date><month>February</month><year>2005</year></date></from>
+				<to><date><month>September</month><year>2005</year></date></to>
+			</period>
+
+		<projects>
+			<project>
+				<para>
+     				LAMP Deployment: Deployed a Debian Linux/Apache/MySQL/PHP system and educated the System Administration and Development
+      				staff on configuration and use for an insurance company located in Burbank CA.
+	  			</para>
+			</project>
+
+			<project>
+				<para>
+     				Corporate Linux Deployment/Migration: Providing on going assistance to a medium sized business with a 100% conversion to
+      				Linux on the Desktop as well as server. Utilizing SUSE Professional 6.5 for desktops and Debian GNU/Linux for 
+					multiple production mission critical servers (Email/File Server/DNS/DHCP). This is for a manufacturing company in 
+					Sylmar CA. 
+				</para>
+			</project>
+
+			<project>
+				<para>
+     				Linux Deployment/Migration: Providing on going assistance to a small software development firm with a 100% 
+					conversion to Linux. Utilizing Ubuntu Linux for desktops and Debian GNU/Linux for
+					servers (Email/File/LDAP/DNS/DHCP). February 2004-Present
+				</para>
+			</project>
+		</projects>
+		</job>
+	
+
+
+
+   		<job>
+		<jobtitle>Junior System Administrator</jobtitle>
+    	<employer>Newroads http://www.newroads.com</employer>
+    	<period>
+			<from><date><month>March</month><year>2002</year></date></from>
+			<to><date><month>February</month><year>2005</year></date></to>
+		</period>
+
+		<projects>
+			<project>
+				<title>Disaster Recovery from an Informix Database Failure</title>
+				<para>
+      			Assisted in the design/testing/and execution of a disaster recovery in real time
+      			(on-the-fly). Wrote and documented the use of several utilities that cut down the amount of time to recovery by 30
+      			percent.
+	  			</para>
+			</project>
+
+			<project>
+    		<title>Streamlined the FTP Server Configuration process</title>
+			<para>
+			Streamlined the system configuration and new account creation process for ProFTPD on a mission critical FTP server. 
+			This allowed faster turn around times and freed up I.T. resources. (1 month project)
+			</para>
+			</project>
+
+			<project>
+			<title>Deployed open-source Remote Control Software</title>
+			<para>
+      		Deplopyed/Secured/Optimized/Maintained UltraVNC remote control software. This allowed the Infrastructure Support team to more
+      		rapidly respond to users support requests, and by doing so increase compliance with Service Level Agreements and increase
+      		end-user satisfaction. (2 month project)
+	  		</para>
+			</project>
+
+			<project>
+			<title>Network Infrastructure Upgrade</title>
+			<para>
+			Upgraded the network from hubs to Linksys managed switches to increase network performance and usability/reliability. 
+			No network downtime occurred in the process of the upgrade (1 week project)
+			</para>
+			</project>
+
+			<project>
+			<title>Hardware/Software Inventory Solution</title>
+			<para>
+			Wrote a custom software/hardware monitoring/reporting system to ensure compliance with software licensing and obtain an 
+			accurate overview of company assets for inventory and disaster recovery purposes. (2 month project)
+			</para>
+			</project>
+			</projects>
+		</job>
+	</history>
+		
+		
+    
+
+    
+<awards>
+	<title>Classes/Courses</title>
+	<award>
+		<title>Course 319: Technical Writing A Comprehensive Hands On Introduction</title>
+		<organization>Learning Tree International</organization>
+		<date><month>May</month> <year>2004</year></date>
+		<para>
+		This course showed the entire process of developing clear concise effective technical writing in less time, that meets the needs 
+		of the audience.
+		</para>
+	</award>
+
+	<award>
+		<title>Course 364: Introduction to Internetworking Switches And Routers</title>
+		<organization>Learning Tree International</organization>
+		<date><month>October</month><year>2004</year></date>
+		<para>
+		This workshop presented a conceptual overview of networking fundemntals and technology.
+		</para>
+	</award>
+</awards>
+
+
+</resume>

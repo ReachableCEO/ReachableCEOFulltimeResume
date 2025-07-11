@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://xmlresume.sourceforge.net/dtd/resume.dtd">
+
+<resume>
+	<header>
+		<name><firstname>Charles</firstname> <surname>Wyble</surname></name>
+		<address><city>El Monte</city> <state>CA</state> </address>
+		<contact><phone location="mobile">818.280.7059</phone> <email>charles@knownelement.com</email> <url>http://www.knownelement.com/</url> </contact>
+	</header>
+
+	<objective>
+		<para>
+		I’m looking to reduce costs and improve efficiency in an IT service delivery organization, 
+		by rapidly sourcing and fielding whatever is necessary to get the job done on time and within budget. 
+		</para>
+	</objective>
+
+	<skillarea>
+			<title>Skills Summary</title>
+			<skillset>
+			<skill> 
+			Linux systems engineer with extensive knowledge/experience on both 
+			Debian and RedHat based Linux distributions in a wide variety of applications.
+
+			Very comfortable with shell scripting, package management, user account 
+			administration, configuration management, etc.
+
+			A frequent speaker/writer on a wide variety of IT and open source 
+			matters, as well as a frequent contributer to open source projects
+			</skill>
+			</skillset>
+	</skillarea>
+
+	<skillarea>
+		<skillset>
+			<skill>
+			<emphasis>Core IT infrastructure </emphasis> :
+			Daily administration tasks in support of 
+			Mailman, Postfix, Bind, PXE boot (Debian Fully Automated Install (FAI) and Red Hat 
+			Kickstart on both Xen guests and physical hardware
+			</skill>
+		</skillset>
+
+		<skillset>
+			<skill>
+			<emphasis>Linux Server Applications </emphasis> :
+			Debian and Ubuntu / Red Hat Enterprise Linux (3/4/5)
+			shell scripting/automation (bash/sed/awk)
+			assisting tier3 support with software debugging (PHP/Python/Perl/Java)
+			Apache 1.30/2.0/2.2
+			Postfix and Courier
+			Samba/ProfFTPD
+			IpTables/Snort/Nessus/Nmap/OpenVAS
+			</skill>
+		</skillset>
+
+		<skillset>
+			<skill>
+		<emphasis>Networking (switches, load balancers and security)</emphasis> :
+			F5/BigIP Global Traffic Manager and Local Traffic Manager 
+			Cisco  LocalDirector, 2600/1800 series routers, 3745/2900 switches
+			Linux Virtual Server (LVS)
+			IPTables, Snort, ClamAV
+			OpenVPN
+			</skill>
+		</skillset>
+
+		<skillset>
+		<skill>
+		<emphasis> Monitoring</emphasis> :
+			Nagios, HP OpenView, HP SiteScope and What’s Up Gold
+		</skill>
+		</skillset>
+
+  		<skillset>
+		<skill>
+		<emphasis>Storage</emphasis> :
+				Hewlett Packard SAN (20 terabytes total storage supporting VmWare workloads)
+				EMC Clarion cx400 and cx700  (200 terabytes total storage supporting Oracle/MySQL/SQL server workloads)
+				Promise and Equallogic iSCSI Network Attached Storage (100 terabytes total storage supporting near 
+				line storage and development workloads)
+				NFS on Linux supporting distributed web work loads
+				</skill>
+	  	</skillset>
+
+		<skillset>
+		<skill>
+		<emphasis>Other</emphasis> :
+			Basic systems administration of HP-UX 11i
+			Basic systems administration of Solaris 8/9/10/opensolaris
+			Panther CDN
+			ATT Edge Cache
+			Akamai
+			VmWare Virtual Infrastructure 3.5
+			XEN KVM/Qemu/Virtual Server/OpenVZ/VmWare Server
+			</skill>
+		</skillset>
+</skillarea>
+
+<history>
+
+<job>
+	<jobtitle>Linux System Engineer</jobtitle>
+	<employer>Targetcast Networks (via acquisition of RippleTV)</employer>
+	<period>
+		<from><date><month>October</month><year>2008</year></date></from>
+		<to><date><month>January</month><year>2010</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided system engineering expertise for customer facing advertising platform (AdSpot) and internal fleet management tool (CPanel). 
+	Utilized Nginx, Mongrel, Thin, Rails, Merb, Rack, MySQL (with replication), memcached and slack to support 2000+ systems.
+	</para>
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux, Windows, network and security consulting</jobtitle>
+	<employer>Multiple entities including Cast And Crew Entertainment Services Inc, Evite.com and Siderean Software </employer>
+	<period>
+	<from><date><month>September</month><year>2007</year></date></from>
+	<to><date><month>October</month><year>2008</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided Linux and Cisco systems engineering expertise for Evite.com, across 2 geographically dispersed data centers supporting 
+	10 million visitors and 2 million e-mails per day. Utilized Apache/Tomcat on Gentoo and Ubuntu.
+	</para>
+
+	<para>
+	Provided Linux systems engineering expertise for Cast And Crew Entertainment Services. Utilized Centos to host several green screen 
+	and J2EE web based applications for payroll processing.
+	</para>
+
+	<para>
+	Provided Linux systems engineering expertise for Siderean Software. Utilized Fedora and Centos on dedicated hardware and ec2 to 
+	host numerous web properties including sites for Oracle Software.
+	</para>
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows System Engineer</jobtitle>
+	<employer>The Walt Disney Company - Parks and Resorts Online - Walt Disney Internet Group</employer>
+	<period>
+		<from><date><month>August</month><year>2006</year></date></from>
+		<to><date><month>September</month><year>2007</year></date></to>
+	</period>
+
+	<description>
+	<para>
+	Provided system engineering and PCI compliance expertise for Disneyland.com, Disneyworld.com, DisneyCruiseLines.com 
+	and 23 related properties generating 2 billion dollars a year.  Business logic was handled by Jboss instances on RHEL3/4
+	and frontend application serving was done via Windows 2003 and Tomcat/IIS.
+	</para>
+
+	<projects>
+	<project>
+	<title><emphasis>Automated numerous routine system administration tasks</emphasis></title>
+	Created numerous batch and VbScript programs to handle all aspects of Windows administration from the command line.
+	</project>
+
+	<project>
+	<title><emphasis>Active Directory Project for WDIG</emphasis></title>
+	Designed and implemented a nation wide, 3 data center, highly available Active Directory system to handle both the 
+	PCI and non PCI servers for the Walt Disney Internet Group.  
+	</project>
+
+	<project>
+	<title><emphasis>Windows NT to Active Directory migration</emphasis></title>
+	Migrated all the application servers off of Windows NT to Windows 2003 Active Directory domain controllers. 
+	Also have experience with Windows 2008 (including Linux/Cisco/wireless 
+	[wpa2 enterprise] authentication). Used both Centrify and Samba/Winbind/LDAP/Kerberos.
+	</project>
+	</projects>
+
+
+
+	</description>
+</job>
+
+<job>
+	<jobtitle>Linux Systems Engineer</jobtitle>
+	<employer>Intuit Inc (via acquistion of Electronic Clearing House)</employer>
+	<period>
+		<from><date><month>October</month><year>2005</year></date></from>
+		<to><date><month>June</month><year>2006</year></date></to>
+	</period>
+
+	<description>
+		<para>
+			Linux systems engineer for a 24x7 transaction processing/ecommerce/
+			financial services environment.  Responsibilities included working closely 
+			with the network administration and infrastructure design teams and ensuring continuous 
+			uptime of multiple high visibility/high impact/high value envrironments including
+
+			1TB MySQL database, 300 TB Oracle database, 1.5 TB  Oracle Data warehouse and a 
+			4,000-store LAMP based ecommerce system (MerchantAmerica.com).
+		</para>
+	</description>
+
+	<projects>
+		<project>
+					<title><emphasis>Deployment of encrypted backups.</emphasis></title>
+						Designed/tested/documented/deployed an enterprise wide Linux backup system.
+						All data stored on a central server with ISCSI attached network storage. 
+						Uses GNUPG and tar over ssh. Backups/Restores tested on a weekly basis.
+				</project>
+
+				<project>
+					<title><emphasis>Deployment of Oracle database infrastructure.</emphasis></title>
+					Deployed 2 Oracle RAC clusters, each consisting of 3 Dell 6850's. They are equipped with Qual Dual Core
+					Xeon's and 32 Gb of RAM, running RedHat Enterprise Linux 4.0 64bit edition.
+					One environment is for staging and one is for production. EMC attached. This environment is used for 
+					Data Warehouse, Transaction Processing Software and Credit Card Clearing applications. 
+					The hardware and software was deployed in 3 business days.
+				</project>
+
+				<project>
+					<title><emphasis>File Integrity Checking system for PCI compliance.</emphasis></title>
+						Deployment of file integrity checking across 100 UNIX servers using fully open source software.
+						Used integrit <url>http://integrit.sf.net</url> and some custom shell scripts which were submitted
+						back upstream for inclusion.
+				</project>
+
+			</projects>
+</job>
+
+<job>
+	<jobtitle>Linux, Windows, network and security consulting for various startups and defense contractors</jobtitle>
+	<employer>Multiple entities</employer>
+	<period>
+	<from><date><month>February</month><year>2005</year></date></from>
+	<to><date><month>October</month><year>2005</year></date></to>
+	</period>
+
+	<projects>
+			<project>
+     				<title><emphasis>LAMP Deployment </emphasis></title>
+					Deployed a Debian Linux/Apache/MySQL/PHP system and educated the System Administration and Development
+      				staff on configuration and use for an insurance company. 
+			</project>
+
+			<project>
+     				<title><emphasis>Corporate Linux Deployment/Migration</emphasis> </title> 
+					Provided assistance to a medium sized engineering firm with a near 100% 
+					conversion to Linux on the desktop and server. Utilizing SUSE Professional 6.5 for desktops and Debian GNU/Linux for 
+					servers (Email/File Server/DNS/DHCP). 
+			</project>
+
+			<project>
+				<title><emphasis>Linux Deployment/Migration</emphasis> </title>
+					Provided assistance to a small software development firm with a near 100% 
+					conversion to Linux. Utilized Ubuntu Linux for desktops and Debian GNU/Linux for servers 
+					(Email/File/LDAP/DNS/DHCP). 
+			</project>
+			</projects>
+</job>
+
+<job>
+	<jobtitle>Linux/Windows Systems Engineer</jobtitle>
+	<employer>GSI Commerce (via acquisition of Newroads Inc)</employer>
+	<period>
+		<from><date><month>July</month><year>2002</year></date></from> 
+		<to><date><month>February</month><year>2005</year></date></to>
+	</period>
+
+		<projects>
+			<project>
+				<title><emphasis>Disaster Recovery from an Informix Database failure.</emphasis></title>
+      			Assisted in the design/testing/and execution of a disaster recovery in real time
+      			(on-the-fly). Wrote and documented the use of several utilities that cut down the amount of time to recovery by 30
+      			percent.
+			</project>
+
+			<project>
+    			<title><emphasis>Streamlined the FTP Server Configuration process.</emphasis></title>
+				Streamlined the system configuration and new account creation process for ProFTPD on a mission critical FTP server. 
+				This allowed faster turn around times and freed up IT resources. 
+			</project>
+
+			<project>
+				<title><emphasis>Deployed open-source Remote Control Software.</emphasis></title>
+      			Deplopyed/Secured/Optimized/Maintained UltraVNC remote control software. This allowed the Infrastructure Support team to more
+      			rapidly respond to users support requests, and by doing so increase compliance with Service Level Agreements and increase
+      			end-user satisfaction. 
+			</project>
+
+			<project>
+				<title><emphasis>Network Infrastructure Upgrade.</emphasis></title>
+				Upgraded the network from hubs to Linksys managed switches to increase network performance and usability/reliability. 
+				No network downtime occurred in the process of the upgrade. 
+			</project>
+			
+			<project>
+				<title><emphasis>Hardware/Software Inventory Solution</emphasis>:</title>
+				Wrote a custom software/hardware monitoring/reporting system to ensure compliance with software licensing and obtain an 
+				accurate overview of company assets for inventory and disaster recovery purposes. Utilized WMI/Visio/Microsoft Access.
+			</project>
+			</projects>
+		</job>
+ </history>
+
+</resume>

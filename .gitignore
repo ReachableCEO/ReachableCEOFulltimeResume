@@ -1,2 +1,3 @@
 local/build-temp/*
 RenderedAssets/profile-fte.reachableceo.com/*.pdf
+.vscode/sftp.json

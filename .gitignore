@@ -1,3 +1,5 @@
 local/build-temp/*
-RenderedAssets*
+*.pdf
+*.doc
+RenderedAssets/*/*.md
 .vscode/sftp.json

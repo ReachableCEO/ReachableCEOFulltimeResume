@@ -92,6 +92,6 @@ Here are my complete candidate details for submission to the role.
 | Total IT/career experience                                                                           | {{CandidateTotalExperience}}                         |
 | Open to in-office/hybrid                                                                             | Yes                                                  |
 | Any trips planned in next six months?                                                                | No                                                   |
-| DOB/Last 4 of social/address/other personal identifying information                                  | Happy to share with HR if I am selected for the role |
+| DOB/Last 4 of social/address/other personal identifying information                                  | 2803
 | Open to background check/expect to pass background check (including public trust/secret/TS/SCI SSBI) | Yes                                                  |
 | Open to drug test/expect to pass drug test                                                           | Yes                                                  |
